@@ -138,15 +138,6 @@ Automated ETL pipeline for data collection, transformation, and storage. Built t
 
 ---
 
-## 📜 Certifications
-
-- ✅ MKCL Certified C++ Programmer
-- ✅ RPA Automation
-- ✅ Android Development
-- 🏅 Internal Smart India Hackathon (SIH) Participant
-
----
-
 ## 🌐 Languages
 
 🇬🇧 English &nbsp; | &nbsp; 🇮🇳 Hindi &nbsp; | &nbsp; 🟠 Marathi
