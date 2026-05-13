@@ -26,8 +26,7 @@ I'm a **Full Stack AIML & Data Science** student at Indira College of Engineerin
 - 🏆 Diploma in Computer Engineering — **89.14%** | GGS Polytechnic, Nashik
 - 🔭 Currently building: full-stack AI-powered applications
 - 🌱 Learning: Agentic AI, Reinforcement Learning, Advanced MLOps
-- 💬 Ask me about: Python, MERN Stack, ML pipelines, computer vision
-- ⚽ Off-screen: Football | Anime | Game dev side projects
+- 💬 Ask me about: Python, MERN Stack, ML pipelines
 
 ---
 
