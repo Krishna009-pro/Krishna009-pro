@@ -23,7 +23,7 @@
 I'm a **Full Stack AIML & Data Science** student at Indira College of Engineering and Management, Pune. Most of my work is self-driven or academic, and I'm actively looking to apply this foundation in **real-world, research-oriented environments** where I can grow fast, make meaningful mistakes, and learn from people who've been in the field longer than I have.
 
 - 🎓 Pursuing **B.Tech in AI & Data Science** (2024 – 2028), Pune
-- 🏆 Diploma in Computer Engineering — **89.14%** | GGS Polytechnic, Nashik
+- 🏆 Diploma in Computer Engineering —| GGSP Polytechnic, Nashik
 - 🔭 Currently building: full-stack AI-powered applications
 - 🌱 Learning: Agentic AI, Reinforcement Learning, Advanced MLOps
 - 💬 Ask me about: Python, MERN Stack, ML pipelines
