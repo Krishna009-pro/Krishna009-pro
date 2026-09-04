@@ -1,89 +1,87 @@
-# ascii-profile-kit
-
-Build a clean, monochrome **animated GitHub profile**: an ASCII portrait that
-types itself in like a terminal, a neofetch-style info panel, and a live
-contribution graph that refreshes daily on its own — no paid services, no
-tokens, no broken images.
-
-This is my personal build (**Mithun Gowda B**), wired end to end. Fork it, swap
-in your photo and details, and ship your own.
-
 <div align="center">
 
+<!-- Terminal Header: Live Contributions -->
+<h3><code>krishna@github ~ $ ./contributions.sh --live</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Live GitHub Contribution Heatmap" />
+
+<br><br>
+
+<!-- Terminal Header: Whoami / Neofetch -->
+<h3><code>krishna@github ~ $ whoami && neofetch</code></h3>
+
 <table>
-<tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII portrait" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="Experience, stack, highlights" /></td>
-</tr>
+  <tr>
+    <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Experience, Stack, Highlights" /></td>
+  </tr>
 </table>
 
-<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
+<br>
+
+<!-- Dynamic Animated Typing Bar -->
+<a href="https://github.com/Krishna009-pro">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=640&lines=Software+Developer+%7C+AI+Systems+Builder;Full-Stack+Web+%26+Cloud+Architecture;Writing+Clean+Code+%26+High-Impact+Tools" alt="Typing SVG" />
+</a>
+
+<br><br>
+
+<!-- Quick Connect & Socials -->
+<p align="center">
+  <a href="https://github.com/Krishna009-pro" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:kkp1882006@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-kkp1882006%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+<br>
 
 </div>
 
 ---
 
-## How it works
+### 🛠️ Tech Stack & Ecosystem
 
-GitHub strips `<script>` from READMEs, but it DOES run **SMIL and CSS animations
-inside an SVG** loaded as an `<img>`. So all the motion lives inside self-hosted
-SVGs in the repo — nothing ever 404s or gets rate-limited.
+<div align="center">
 
-Two things make the portrait look *clean* instead of noisy:
-1. **Monochrome** — one light-gray color, never per-character rainbow.
-2. **Background removed + local contrast (CLAHE)** — so the subject sits on blank
-   space and the face has real highlights/shadows instead of being a dark blob.
+<img src="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,nodejs,fastapi,django,tailwind,postgres,mongodb,redis,docker,aws,git,github,linux,vscode" alt="Skills" />
 
-## What's inside
+</div>
 
-```
-PROMPT.md                    a paste-into-Claude-Code prompt that drives it all
-profile-README-template.md   the README that goes on your profile
-requirements-local.txt       deps for the one-time local image prep
-scripts/
-  prep_photo.py              rembg background removal + CLAHE contrast (run once)
-  make_ascii_svg.py          photo  -> typing monochrome ASCII portrait
-  make_info_card.py          your experience/stack -> neofetch info panel  <- EDIT
-  fetch_contributions.py     scrapes your real contributions (no auth)
-  render_heatmap_svg.py      contributions -> animated box graph
-  requirements.txt           deps the daily workflow needs
-.github/workflows/
-  update-profile-art.yml     refreshes the graph every day, automatically
-```
+<br>
 
-## Quickstart
+---
 
-```bash
-# 0. deps
-pip install -r requirements-local.txt        # local prep
-pip install -r scripts/requirements.txt      # scraper
+### ⚡ Engineering Focus & Philosophy
 
-# 1. portrait  (STATIC=1 shows the final frame; drop it for the animated file)
-python scripts/prep_photo.py path/to/your-photo.jpg source-prepped.png
-python scripts/make_ascii_svg.py              # -> avi-ascii.svg
+- 🔭 **Currently Building:** Modern, scalable full-stack applications, automated pipelines, and intelligent AI tools.
+- 💡 **Architecture First:** High cohesion, decoupled modular services, and performance-optimized execution.
+- 🎯 **Daily Streak & Consistency:** Continuous learning, shipping real code, and daily open source engagement.
+- 💬 **Ask Me About:** Python, FastAPI, React/Next.js, Database design, Docker, and GitHub Actions automation.
 
-# 2. info panel  (edit the ROWS + HOST at the top of the script first)
-python scripts/make_info_card.py              # -> info-card.svg
+<br>
 
-# 3. contribution graph
-GH_PROFILE_USER=YOUR_USERNAME python scripts/fetch_contributions.py
-python scripts/render_heatmap_svg.py          # -> contrib-heatmap.svg
+---
 
-# 4. README
-cp profile-README-template.md README.md       # then fill in name / tagline / links
-```
+### 📈 Real-Time Coding Streak
 
-Create a **public repo named exactly your GitHub username**, drop in the three
-SVGs, `README.md`, the `scripts/` folder, `data/contributions.json`, and
-`.github/`, then push. Set **Settings → Actions → General → Workflow permissions
-→ Read and write** and run the workflow once so the graph appears immediately.
-After that it updates itself daily.
+<div align="center">
 
-## Tuning cheatsheet
+<a href="https://github.com/Krishna009-pro">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krishna009-pro&theme=tokyonight&hide_border=true&background=0d1117&ring=39d353&fire=ffa657&currStreakLabel=39d353" alt="GitHub Streak" />
+</a>
 
-| Want to…                    | Where |
-| --------------------------- | ----- |
-| Punchier / lighter face     | `CONTRAST`, `GAMMA`, `WHITE_FLOOR` in `make_ascii_svg.py`; `clipLimit` in `prep_photo.py` |
-| Type faster / slower        | `ROW_DUR`, `STAGGER` in `make_ascii_svg.py` |
-| Change experience / stack   | `ROWS` and `HOST` in `make_info_card.py` |
-| Info panel too tall         | bump `H` in `make_info_card.py`, then re-match `width=` in the README |
+</div>
+
+<br>
+
+---
+
+<div align="center">
+  <sub>⚡ Auto-rendered as self-contained SVG & refreshed daily via GitHub Actions · Zero 3rd-party dependencies</sub>
+</div>
