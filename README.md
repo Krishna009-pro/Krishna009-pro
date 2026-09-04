@@ -76,24 +76,28 @@ I'm a **Full Stack AIML & Data Science** student at **Indira College of Engineer
 
 ### 🚀 Featured Projects
 
-#### 🌉 ML-Based Bridge Lifespan Prediction System
-> `Python` · `OpenCV` · `Machine Learning` · `IoT`
+#### 🌉 [ML-Driven Bridge Maintenance & Lifespan Prediction System](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
+> `Python` · `OpenCV` · `Machine Learning` · `IoT` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
 - Predicts bridge structural durability and maintenance schedules by synthesizing ML models with IoT sensor telemetry.
 - Integrated **computer vision for automated crack detection** to automate structural defect identification at scale.
 
-#### 🎓 Student Hub — Accommodation & Course Tracker
-> `MongoDB` · `Express.js` · `React.js` · `Node.js`
+#### 🎓 [Student Hub — Accommodation & Course Tracker](https://github.com/Krishna009-pro/students-accommodation-finder)
+> `MongoDB` · `Express.js` · `React.js` · `Node.js` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
 - Full-stack MERN platform resolving student pain points in finding housing and monitoring academic progress.
 - Architected the complete stack from database schemas and authentication to responsive frontend UI.
 
-#### ☁️ Drive System — Cloud File & Image Storage
-> `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage`
+#### ☁️ [Aura Drive — Cloud File & Media Storage System](https://github.com/Krishna009-pro/aura-drive)
+> `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/aura-drive)
 - Cloud storage platform for uploading, categorizing, and streaming files remotely.
 - Built a high-performance Python FastAPI backend interfacing with React frontend for asynchronous I/O.
 
-#### 🤖 Voice Assistant — Jarvis
-> `Python` · `NLP` · `Automation`
+#### 🤖 [Desktop Jarvis — Voice-Driven AI Assistant](https://github.com/Krishna009-pro/Desktop-Jarvis)
+> `Python` · `NLP` · `Automation` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
 - Personal voice-driven assistant executing system tasks, automated workflows, and natural language command parsing.
+
+#### 🌟 [StorySpark AI — Interactive Storytelling Platform](https://github.com/Krishna009-pro/story-spark-ai)
+> `AI/LLM` · `Full-Stack` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/story-spark-ai)
+- Generative AI-powered interactive storytelling experience combining real-time LLM prompting with rich user narratives.
 
 <br>
 
@@ -104,7 +108,7 @@ I'm a **Full Stack AIML & Data Science** student at **Indira College of Engineer
 | Event | Project | Highlight |
 |---|---|---|
 | 🏦 **EY Techathon 6.0** (BFSI Domain) | **AI-Based Loan Chatbot** | Agentic AI & Master-Worker architecture for loan eligibility in banking |
-| 🔥 **Meta PyTorch Hackathon** | **CodeForge Pro** | Applied Reinforcement Learning (RL) inside structured coding environments |
+| 🔥 **Meta PyTorch Hackathon** | [**CodeForge Pro**](https://github.com/Krishna009-pro/codeforge_pro_env) | Applied Reinforcement Learning (RL) inside structured coding environments |
 | 🏥 **Mumbai Hackathon** | **Healthcare Management System** | Rapid full-stack prototyping & system architecture under 24hr pressure |
 | 🎓 **College Hackathon** | **Web-Based MVP** | Shipped production-ready MVP in a fast-paced 24–48hr sprint |
 
