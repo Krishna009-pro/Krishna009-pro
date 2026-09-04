@@ -43,24 +43,24 @@ ACCENT = "#22d3ee"
 #    ("bul", text)          -> green dot + light bullet
 #    ("gap",)               -> a little vertical space
 # ===========================================================================
-HOST = "krishna"   # shown as  krishna@github  in the header
+HOST = "krushna"   # shown as  krushna@github  in the header
 
 ROWS = [
     ("host",),
-    ("kv", "Now", "Software Developer & AI Builder"),
-    ("kv", "Focus", "Full-Stack Systems & Intelligent Apps"),
-    ("kv", "Loc", "India"),
-    ("kv", "GitHub", "github.com/Krishna009-pro"),
+    ("kv", "Now", "Full Stack AIML & Data Science"),
+    ("kv", "Study", "B.Tech AI & DS @ ICEM Pune"),
+    ("kv", "Loc", "Pune, Maharashtra, India"),
+    ("kv", "Connect", "in/krushna-patil-b4256b388"),
     ("gap",),
     ("sec", "Stack"),
-    ("kv", "Languages", "Python, JavaScript, TypeScript"),
-    ("kv", "Backend", "FastAPI, Django, Node.js"),
-    ("kv", "Frontend", "React, Modern Web, UI/UX"),
-    ("kv", "Cloud/AI", "Docker, AWS, Git, LLMs"),
+    ("kv", "Languages", "Python, JS, C++, Java, PHP"),
+    ("kv", "AI / ML", "Agentic AI, PyTorch, OpenCV, Scikit"),
+    ("kv", "Full Stack", "FastAPI, React, Node.js, Express"),
+    ("kv", "Databases", "MongoDB, MySQL, Supabase, Firebase"),
     ("gap",),
     ("sec", "Highlights"),
+    ("bul", "EY Techathon 6.0 & Meta PyTorch Hackathon"),
     ("bul", "680+ GitHub contributions this year"),
-    ("bul", "Building open source & full-stack systems"),
 ]
 
 
