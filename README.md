@@ -1,12 +1,5 @@
 <div align="center">
 
-<!-- Terminal Header: Live Contributions -->
-<h3><code>krushna@github ~ $ ./contributions.sh --live</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Live GitHub Contribution Heatmap" />
-
-<br><br>
-
 <!-- Terminal Header: Whoami / Neofetch -->
 <h3><code>krushna@github ~ $ whoami && neofetch</code></h3>
 
@@ -16,6 +9,13 @@
     <td valign="top"><img src="./info-card.svg" width="490" alt="Experience, Stack, Highlights" /></td>
   </tr>
 </table>
+
+<br><br>
+
+<!-- Terminal Header: Live Contributions -->
+<h3><code>krushna@github ~ $ ./contributions.sh --live</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Live GitHub Contribution Heatmap" />
 
 <br>
 
