@@ -124,7 +124,7 @@ I'm a **Full Stack AIML & Data Science** student at **Indira College of Engineer
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krishna009-pro&theme=tokyonight&hide_border=true&background=0d1117&ring=39d353&fire=ffa657&currStreakLabel=39d353" height="175" alt="GitHub Streak" />
 </a>
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=58a6ff&icon_color=39d353&count_private=true" height="175" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=58a6ff&icon_color=39d353&count_private=true" height="175" alt="GitHub Stats" />
 </a>
 
 </div>
