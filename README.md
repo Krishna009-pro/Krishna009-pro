@@ -209,21 +209,14 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <div align="center">
 
-<!-- GitHub Streak (Fiery Red Theme) -->
+<!-- GitHub Stats & Velocity (Stars, Commits, PRs, Contributed-to) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krishna009-pro&theme=tokyonight&hide_border=true&background=0d1117&ring=ef4444&fire=ff4d6d&currStreakLabel=ff4d6d&sideLabels=f0f6fc" height="165" alt="GitHub Streak" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=ff4d6d&icon_color=ef4444&text_color=e2e8f0&count_private=true" height="165" alt="GitHub Stats" />
 </a>
-&nbsp;
-<!-- GitHub Stats (Fiery Red Theme) -->
+&nbsp;&nbsp;
+<!-- Top Languages Distribution -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=ff4d6d&icon_color=ef4444&text_color=e2e8f0&border_color=3a1318&count_private=true" height="165" alt="GitHub Stats" />
-</a>
-
-<br><br>
-
-<!-- Top Languages (Fiery Red Theme) -->
-<a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Krishna009-pro&layout=compact&theme=tokyonight&hide_border=true&background=0d1117&title_color=ff4d6d&text_color=e2e8f0" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Krishna009-pro&layout=compact&theme=tokyonight&hide_border=true&background=0d1117&title_color=ff4d6d&text_color=e2e8f0" height="165" alt="Top Languages" />
 </a>
 
 </div>
