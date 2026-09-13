@@ -74,11 +74,53 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <div align="center">
 
-<!-- Languages, Core AI & Backend -->
-<img src="https://skillicons.dev/icons?i=py,cpp,c,java,ts,js,pytorch,scikitlearn,fastapi,react,nodejs,express" alt="Languages, AI/ML & Core Stack" />
-<br><br>
-<!-- Databases, Cloud, DevOps & Tools -->
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,supabase,firebase,docker,linux,git,tailwind,html,css,android,vscode" alt="Databases, Cloud & Dev Tools" />
+<table>
+  <tr>
+    <td width="28%" valign="middle" align="left">
+      <b>⚡ Languages &amp; Runtimes</b><br>
+      <sub>Python, C++, C, Java, TypeScript, JavaScript, PHP</sub>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=py,cpp,c,java,ts,js,php" alt="Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td width="28%" valign="middle" align="left">
+      <b>🧠 AI, ML &amp; Computer Vision</b><br>
+      <sub>PyTorch, Scikit-Learn, TensorFlow, OpenCV</sub>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=pytorch,scikitlearn,tensorflow" alt="AI / ML" />
+    </td>
+  </tr>
+  <tr>
+    <td width="28%" valign="middle" align="left">
+      <b>🌐 Backend &amp; Web Frameworks</b><br>
+      <sub>FastAPI, React.js, Node.js, Express, TailwindCSS, HTML5, CSS3</sub>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=fastapi,react,nodejs,express,tailwind,html,css" alt="Web & Backend" />
+    </td>
+  </tr>
+  <tr>
+    <td width="28%" valign="middle" align="left">
+      <b>🗄️ Databases &amp; Cloud Storage</b><br>
+      <sub>MongoDB, MySQL, Supabase, Firebase</sub>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=mongodb,mysql,supabase,firebase" alt="Databases" />
+    </td>
+  </tr>
+  <tr>
+    <td width="28%" valign="middle" align="left">
+      <b>🛠️ DevOps, Systems &amp; Tooling</b><br>
+      <sub>Docker, Linux, Git, Android, VS Code, Postman</sub>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=docker,linux,git,android,vscode,postman" alt="DevOps & Tools" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
