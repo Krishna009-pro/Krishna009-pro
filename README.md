@@ -1,3 +1,4 @@
+<a id="top"></a>
 <div align="center">
 
 <!-- Hero Banner Card (Engineering Profile & Architecture Flow) -->
@@ -225,6 +226,47 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 ---
 
+### 📬 Connect & Collaborate
+
 <div align="center">
-  <sub>⚡ Auto-rendered as self-contained SVG & refreshed daily via GitHub Actions · Zero 3rd-party dependencies</sub>
+
+<p align="center">
+  <b>Let's build resilient, high-impact systems together.</b><br>
+  Whether you have an opportunity in agentic AI architectures, scalable full-stack development, hackathon collaboration, or open-source engineering — my inbox is always open!
+</p>
+
+<p align="center">
+  <a href="mailto:kkp1882006@gmail.com">
+    <img src="https://img.shields.io/badge/Email-kkp1882006%40gmail.com-E63946?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/krushna-patil-b4256b388" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Krushna%20Patil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Krishna009-pro" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-180c10?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/Krishna009/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-Krishna009-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+</p>
+
+<br>
+
+<!-- Dynamic Crimson Architecture Footer Banner -->
+<img src="./assets/footer-banner.svg" width="860" alt="Krushna Patil — Architecture Footer" />
+
+<br><br>
+
+<p align="center">
+  <a href="#top">
+    <img src="https://img.shields.io/badge/Back%20To%20Top-▲-E63946?style=flat-square" alt="Back to Top" />
+  </a>
+</p>
+
+<sub>⚡ Designed with crimson engineering aesthetics · Auto-generated SVG architecture & refreshed daily via GitHub Actions · Krushna Patil &copy; 2025–2026</sub>
+
 </div>
+

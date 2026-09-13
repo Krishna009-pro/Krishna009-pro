@@ -306,7 +306,69 @@ def generate_engineering_workflow():
     print(f"wrote {out_path} ({len(svg)} bytes)")
 
 
+def generate_footer_banner():
+    """Builds a luxury crimson red footer banner with quote, accent wave, and engineering signature."""
+    out_path = os.path.join(ASSETS, "footer-banner.svg")
+    W, H = 860, 115
+    
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="footer-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14090d"/>
+      <stop offset="50%" stop-color="#0e0a10"/>
+      <stop offset="100%" stop-color="#0a080d"/>
+    </linearGradient>
+    <linearGradient id="wave-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e63946" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#ff4d6d" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#b5179e" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="glow-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e63946" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#ff4d6d" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#ff758f" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#e63946" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="footer-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#ff4d6d" stroke-width="0.7" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="{W}" height="{H}" rx="14" fill="url(#footer-bg)"/>
+  <rect width="{W}" height="{H}" rx="14" fill="url(#footer-grid)"/>
+  <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="none" stroke="#3d151e" stroke-width="1"/>
+  
+  <!-- Subtle Glowing Top Accent -->
+  <line x1="60" y1="1" x2="{W-60}" y2="1" stroke="url(#glow-line)" stroke-width="2"/>
+
+  <!-- Flowing Bottom Sine Wave Accent -->
+  <path d="M 0 85 Q 215 65 430 85 T 860 85 L 860 115 L 0 115 Z" fill="url(#wave-grad)"/>
+  <path d="M 0 85 Q 215 65 430 85 T 860 85" fill="none" stroke="#ff4d6d" stroke-width="1.2" stroke-opacity="0.45"/>
+
+  <!-- Inspirational Architecture Quote -->
+  <text x="{W/2}" y="38" fill="#f8fafc" font-size="13" font-style="italic" font-weight="500" text-anchor="middle" letter-spacing="0.3">
+    &ldquo;First make it work, then make it right, then make it scale &mdash; with resilient architecture at every tier.&rdquo;
+  </text>
+
+  <!-- Engineering Signature & Telemetry Status -->
+  <text x="{W/2}" y="62" fill="#ff758f" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="1">
+    KRUSHNA PATIL &middot; AUTONOMOUS AI &middot; HIGH-THROUGHPUT BACKENDS &middot; PUNE, INDIA
+  </text>
+
+  <!-- Pulsing Center Core Status -->
+  <circle cx="{W/2}" cy="96" r="3" fill="#e63946">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.5;3.5;2.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>'''
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(svg)
+    print(f"wrote {out_path} ({len(svg)} bytes)")
+
+
 if __name__ == "__main__":
     generate_hero_banner()
     generate_engineering_pillars()
     generate_engineering_workflow()
+    generate_footer_banner()
