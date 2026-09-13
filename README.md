@@ -50,13 +50,13 @@
 
 > *"I enjoy building things — whether that's an ML model, an agentic AI system, a full-stack app, or a reliable data pipeline."*
 
-I'm a **Full Stack AIML & Data Science** student at **Indira College of Engineering and Management (ICEM), Pune**. Most of my work is self-driven and research-focused, actively applying core theoretical foundations to build **scalable, production-grade applications**.
+I'm an **AI & Data Science** undergraduate at **Indira College of Engineering and Management (ICEM), Pune**. My focus centers on architecting **autonomous agentic systems, high-performance web backends, and production-grade computer vision pipelines**.
 
-- 🎓 Pursuing **B.Tech in AI & Data Science** (2024 – 2028) — ICEM, Pune
-- 🏆 Diploma in Computer Engineering — GGSP Polytechnic, Nashik
-- 🔭 **Currently building:** Autonomous Agentic AI systems & full-stack AI-powered apps
-- 🌱 **Exploring:** Reinforcement Learning, MLOps pipelines, Multi-Agent Architectures
-- 💬 **Ask me about:** Python, FastAPI, React/Node.js, Agentic AI, PyTorch
+- 🎓 **Education:** Pursuing **B.Tech in AI & Data Science** (2024 – 2028) — ICEM Pune | Diploma in Computer Engineering — GGSP Polytechnic
+- 🔭 **Currently Engineering:** Autonomous Multi-Agent workflows, edge computer vision defect detectors & scalable full-stack apps
+- 🌱 **Deepening Expertise:** Reinforcement Learning, MLOps orchestration pipelines, Distributed Agent Frameworks
+- 💬 **Core Proficiencies:** Python, FastAPI, PyTorch, React, Node.js, OpenCV, Docker
+- ⚡ **Philosophy:** Writing clean, decoupled, and benchmarked code that solves mission-critical problems
 
 <br>
 
@@ -66,7 +66,11 @@ I'm a **Full Stack AIML & Data Science** student at **Indira College of Engineer
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,js,ts,java,cpp,c,php,react,fastapi,nodejs,express,html,css,tailwind,mongodb,mysql,supabase,firebase,scikitlearn,pytorch,docker,git,android,linux,vscode" alt="Skills" />
+<!-- Languages, Core AI & Backend -->
+<img src="https://skillicons.dev/icons?i=py,cpp,c,java,ts,js,pytorch,scikitlearn,fastapi,react,nodejs,express" alt="Languages, AI/ML & Core Stack" />
+<br><br>
+<!-- Databases, Cloud, DevOps & Tools -->
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,supabase,firebase,docker,linux,git,tailwind,html,css,android,vscode" alt="Databases, Cloud & Dev Tools" />
 
 </div>
 
@@ -77,40 +81,64 @@ I'm a **Full Stack AIML & Data Science** student at **Indira College of Engineer
 ### 🚀 Featured Projects
 
 #### 🌉 [ML-Driven Bridge Maintenance & Lifespan Prediction System](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
-> `Python` · `OpenCV` · `Machine Learning` · `IoT` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
-- Predicts bridge structural durability and maintenance schedules by synthesizing ML models with IoT sensor telemetry.
-- Integrated **computer vision for automated crack detection** to automate structural defect identification at scale.
+> `Python` · `OpenCV` · `Machine Learning` · `IoT Telemetry` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
+- Synthesizes real-time IoT vibration and strain telemetry with machine learning regression models to predict structural fatigue and degradation indices.
+- Engineered automated **computer vision crack detection** using OpenCV morphological contouring and filtering to flag defects at scale.
 
 #### 🎓 [Student Hub — Accommodation & Course Tracker](https://github.com/Krishna009-pro/students-accommodation-finder)
 > `MongoDB` · `Express.js` · `React.js` · `Node.js` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
-- Full-stack MERN platform resolving student pain points in finding housing and monitoring academic progress.
-- Architected the complete stack from database schemas and authentication to responsive frontend UI.
+- Full-stack MERN ecosystem built to streamline student housing discovery, roommate verification, and academic milestone tracking.
+- Architected normalized MongoDB schemas with aggregation pipelines, JWT authentication, and a responsive modern dashboard.
 
-#### ☁️ [Aura Drive — Cloud File & Media Storage System](https://github.com/Krishna009-pro/aura-drive)
+#### ☁️ [Aura Drive — Cloud File & Media Vault](https://github.com/Krishna009-pro/aura-drive)
 > `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/aura-drive)
-- Cloud storage platform for uploading, categorizing, and streaming files remotely.
-- Built a high-performance Python FastAPI backend interfacing with React frontend for asynchronous I/O.
+- Asynchronous high-throughput media storage vault supporting categorized file uploads, live streaming, and instant asset transformation.
+- Powered by a Python FastAPI asynchronous backend interfacing with ImageKit CDN and client-side React state handling.
 
 #### 🤖 [Desktop Jarvis — Voice-Driven AI Assistant](https://github.com/Krishna009-pro/Desktop-Jarvis)
-> `Python` · `NLP` · `Automation` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
-- Personal voice-driven assistant executing system tasks, automated workflows, and natural language command parsing.
+> `Python` · `NLP` · `System Automation` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
+- Hands-free desktop voice assistant executing operating system routines, background automation, and real-time natural language query routing.
+- Built with non-blocking audio event loops and intent parsing for low-latency command dispatch.
 
 #### 🌟 [StorySpark AI — Interactive Storytelling Platform](https://github.com/Krishna009-pro/story-spark-ai)
-> `AI/LLM` · `Full-Stack` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/story-spark-ai)
-- Generative AI-powered interactive storytelling experience combining real-time LLM prompting with rich user narratives.
+> `AI/LLM` · `Full-Stack` · `Prompt Engineering` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/story-spark-ai)
+- Interactive generative AI storytelling engine that dynamically builds branching storylines based on user decisions while preserving narrative memory.
+- Enforces strict JSON prompt contracts to ensure consistent world rules and character persona retention across turns.
 
 <br>
 
 ---
 
-### 🏆 Hackathons & Competitions
+### 🏆 Hackathons & Engineering Competitions
 
-| Event | Project | Highlight |
+| Event | Project | Engineering Highlight |
 |---|---|---|
-| 🏦 **EY Techathon 6.0** (BFSI Domain) | **AI-Based Loan Chatbot** | Agentic AI & Master-Worker architecture for loan eligibility in banking |
-| 🔥 **Meta PyTorch Hackathon** | [**CodeForge Pro**](https://github.com/Krishna009-pro/codeforge_pro_env) | Applied Reinforcement Learning (RL) inside structured coding environments |
-| 🏥 **Mumbai Hackathon** | **Healthcare Management System** | Rapid full-stack prototyping & system architecture under 24hr pressure |
-| 🎓 **College Hackathon** | **Web-Based MVP** | Shipped production-ready MVP in a fast-paced 24–48hr sprint |
+| 🏦 **EY Techathon 6.0** (BFSI Domain) | **AI-Based Loan Assistant** | Master-Worker agentic architecture orchestrating risk evaluation and loan eligibility |
+| 🔥 **Meta PyTorch Hackathon** | [**CodeForge Pro**](https://github.com/Krishna009-pro/codeforge_pro_env) | Applied Reinforcement Learning (RL) policy gradients in structured coding sandboxes |
+| 🏥 **Mumbai Hackathon** | **Healthcare Management System** | Shipped patient triage & real-time hospital bed monitoring during an intense 24hr sprint |
+| 🎓 **College Hackathon** | **Civic Issue Tracker MVP** | Delivered end-to-end full-stack portal with geospatial issue logging in under 24 hours |
+
+<br>
+
+---
+
+### ⚡ Problem Solving & Coding Profiles
+
+<div align="center">
+
+<a href="https://leetcode.com/u/Krishna009/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-Krishna009-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+</a>
+&nbsp;
+<a href="https://www.hackerrank.com/profile/Krishna009_pro" target="_blank">
+  <img src="https://img.shields.io/badge/HackerRank-Krishna009__pro-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" />
+</a>
+&nbsp;
+<a href="https://github.com/Krishna009-pro?tab=repositories" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repos" />
+</a>
+
+</div>
 
 <br>
 
@@ -121,10 +149,17 @@ I'm a **Full Stack AIML & Data Science** student at **Indira College of Engineer
 <div align="center">
 
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krishna009-pro&theme=tokyonight&hide_border=true&background=0d1117&ring=39d353&fire=ffa657&currStreakLabel=39d353" height="175" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krishna009-pro&theme=tokyonight&hide_border=true&background=0d1117&ring=39d353&fire=ffa657&currStreakLabel=39d353" height="165" alt="GitHub Streak" />
 </a>
+&nbsp;
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=58a6ff&icon_color=39d353&count_private=true" height="175" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=58a6ff&icon_color=39d353&count_private=true" height="165" alt="GitHub Stats" />
+</a>
+
+<br><br>
+
+<a href="https://github.com/Krishna009-pro">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Krishna009-pro&layout=compact&theme=tokyonight&hide_border=true&background=0d1117&title_color=58a6ff" height="150" alt="Top Languages" />
 </a>
 
 </div>

@@ -124,9 +124,9 @@ def render(data):
     ]
     for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
-    user = os.environ.get("GH_PROFILE_USER", "krishna")
+    user = os.environ.get("GH_PROFILE_USER", "krushna")
     parts.append(f'<text x="{canvas_w/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
-                 f'text-anchor="middle">{user}@github: ~/contributions --graph</text>')
+                 f'text-anchor="middle">{user}@github: ~/contributions --live</text>')
 
     grid_top = TITLEBAR_H + TOP_LABEL_H
     grid_left = PAD + LEFT_LABEL_W
