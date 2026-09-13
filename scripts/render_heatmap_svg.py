@@ -16,8 +16,8 @@ HERE = os.path.dirname(__file__)
 IN_PATH = os.path.join(HERE, "..", "data", "contributions.json")
 OUT_PATH = os.path.join(HERE, "..", "contrib-heatmap.svg")
 
-# Crimson red contribution ramp: empty -> brightest fiery red
-PALETTE = ["#161b22", "#450a0a", "#7f1d1d", "#dc2626", "#ef4444", "#f87171"]
+# Native GitHub contribution green ramp: empty -> brightest emerald green
+PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#56d364"]
 
 CELL = 12
 GAP = 3
@@ -28,13 +28,13 @@ TOP_LABEL_H = 20
 TITLEBAR_H = 30
 
 BG = "#0d1117"
-BG2 = "#180c10"
-FRAME = "#3a1318"
+BG2 = "#161b22"
+FRAME = "#30363d"
 MUTED = "#8b949e"
 TEXT = "#f0f6fc"
-ACCENT = "#ff4d6d"
-RED = "#ef4444"
-GOLD = "#f59e0b"
+ACCENT = "#38bdf8"
+GREEN = "#39d353"
+GOLD = "#e3b341"
 
 # reveal timing (one-shot)
 COL_T = 0.018   # per-column delay contribution (left -> right sweep)
@@ -107,7 +107,7 @@ def render(data):
   100% {{ opacity: 1; transform: translateY(0); }}
 }}
 .c {{ opacity: 0; animation: cell {CELL_DUR:.2f}s cubic-bezier(.2,.8,.2,1) both; }}
-.c:hover {{ stroke: #ff4d6d; stroke-width: 1.5px; filter: brightness(1.25); cursor: pointer; }}
+.c:hover {{ stroke: #39d353; stroke-width: 1.5px; filter: brightness(1.25); cursor: pointer; }}
 """.strip()
 
     parts = [
@@ -178,8 +178,8 @@ def render(data):
 
     ly = sep_y + 24
     # left column: big highlighted numbers; right column: context in muted
-    parts.append(f'<circle cx="{PAD + 5}" cy="{ly - 4}" r="3.5" fill="{RED}"/>')
-    parts.append(f'<text x="{PAD + 15}" y="{ly}" font-size="13" fill="{RED}">'
+    parts.append(f'<circle cx="{PAD + 5}" cy="{ly - 4}" r="3.5" fill="{GREEN}"/>')
+    parts.append(f'<text x="{PAD + 15}" y="{ly}" font-size="13" fill="{GREEN}">'
                  f'<tspan font-weight="700">{total:,}</tspan>'
                  f'<tspan fill="{MUTED}"> contributions in the last year</tspan></text>')
     parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">'
@@ -190,7 +190,7 @@ def render(data):
                  f'<tspan fill="{MUTED}">   &#183;   longest </tspan>'
                  f'<tspan fill="{ACCENT}" font-weight="700">{ls} days</tspan>'
                  f'<tspan fill="{MUTED}">   &#183;   active </tspan>'
-                 f'<tspan fill="{RED}" font-weight="700">{active} days</tspan>'
+                 f'<tspan fill="{GREEN}" font-weight="700">{active} days</tspan>'
                  f'<tspan fill="{MUTED}">   &#183;   avg </tspan>'
                  f'<tspan fill="{GOLD}" font-weight="700">{avg}/day</tspan></text>')
     parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">'

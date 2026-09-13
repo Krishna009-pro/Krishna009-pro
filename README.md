@@ -6,9 +6,9 @@
 
 <br><br>
 
-<!-- Dynamic Animated Typing Bar (Crimson Red Theme) -->
+<!-- Dynamic Animated Typing Bar (Cyber Cyan Theme) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=FF4D6D&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Distributed+Systems+%26+ML+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Distributed+Systems+%26+ML+Builder" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -27,7 +27,7 @@
 <br><br>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Krishna009-pro&style=flat-square&color=E63946&label=Profile+Views" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Krishna009-pro&style=flat-square&color=0284C7&label=Profile+Views" alt="Profile Views" />
 </p>
 
 </div>
@@ -130,27 +130,27 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 ### 🚀 Featured Projects
 
 #### 🌉 [ML-Driven Bridge Maintenance & Lifespan Prediction System](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
-> `Python` · `OpenCV` · `Machine Learning` · `IoT Telemetry` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
+> `Python` · `OpenCV` · `Machine Learning` · `IoT Telemetry` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
 - Synthesizes real-time IoT vibration and strain telemetry with machine learning regression models to predict structural fatigue and degradation indices.
 - Engineered automated **computer vision crack detection** using OpenCV morphological contouring and filtering to flag defects at scale.
 
 #### 🎓 [Student Hub — Accommodation & Course Tracker](https://github.com/Krishna009-pro/students-accommodation-finder)
-> `MongoDB` · `Express.js` · `React.js` · `Node.js` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
+> `MongoDB` · `Express.js` · `React.js` · `Node.js` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
 - Full-stack MERN ecosystem built to streamline student housing discovery, roommate verification, and academic milestone tracking.
 - Architected normalized MongoDB schemas with aggregation pipelines, JWT authentication, and a responsive modern dashboard.
 
 #### ☁️ [Aura Drive — Cloud File & Media Vault](https://github.com/Krishna009-pro/aura-drive)
-> `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/aura-drive)
+> `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/aura-drive)
 - Asynchronous high-throughput media storage vault supporting categorized file uploads, live streaming, and instant asset transformation.
 - Powered by a Python FastAPI asynchronous backend interfacing with ImageKit CDN and client-side React state handling.
 
 #### 🤖 [Desktop Jarvis — Voice-Driven AI Assistant](https://github.com/Krishna009-pro/Desktop-Jarvis)
-> `Python` · `NLP` · `System Automation` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
+> `Python` · `NLP` · `System Automation` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
 - Hands-free desktop voice assistant executing operating system routines, background automation, and real-time natural language query routing.
 - Built with non-blocking audio event loops and intent parsing for low-latency command dispatch.
 
 #### 🌟 [StorySpark AI — Interactive Storytelling Platform](https://github.com/Krishna009-pro/story-spark-ai)
-> `AI/LLM` · `Full-Stack` · `Prompt Engineering` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/story-spark-ai)
+> `AI/LLM` · `Full-Stack` · `Prompt Engineering` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/story-spark-ai)
 - Interactive generative AI storytelling engine that dynamically builds branching storylines based on user decisions while preserving narrative memory.
 - Enforces strict JSON prompt contracts to ensure consistent world rules and character persona retention across turns.
 
@@ -163,11 +163,11 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 <div align="center">
 
 <a href="https://leetcode.com/u/Krishna009/" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-Krishna009-E63946?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/LeetCode-Krishna009-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
 </a>
 &nbsp;&nbsp;
 <a href="https://www.hackerrank.com/profile/Krishna009_pro" target="_blank">
-  <img src="https://img.shields.io/badge/HackerRank-Krishna009__pro-FF4D6D?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" />
+  <img src="https://img.shields.io/badge/HackerRank-Krishna009__pro-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" />
 </a>
 
 </div>
@@ -182,12 +182,12 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <!-- GitHub Stats & Velocity (Stars, Commits, PRs, Contributed-to) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=ff4d6d&icon_color=ef4444&text_color=e2e8f0&count_private=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&count_private=true" height="165" alt="GitHub Stats" />
 </a>
 &nbsp;&nbsp;
 <!-- Top Languages Distribution -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Krishna009-pro&layout=compact&theme=tokyonight&hide_border=true&background=0d1117&title_color=ff4d6d&text_color=e2e8f0" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Krishna009-pro&layout=compact&theme=tokyonight&hide_border=true&background=0d1117&title_color=38bdf8&text_color=e2e8f0" height="165" alt="Top Languages" />
 </a>
 
 </div>
@@ -207,7 +207,7 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <p align="center">
   <a href="mailto:kkp1882006@gmail.com">
-    <img src="https://img.shields.io/badge/Email-kkp1882006%40gmail.com-E63946?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-kkp1882006%40gmail.com-0284C7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;&nbsp;
   <a href="https://linkedin.com/in/krushna-patil-b4256b388" target="_blank">
@@ -215,24 +215,24 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Krishna009-pro" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-180c10?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
 <br>
 
-<!-- Dynamic Crimson Architecture Footer Banner -->
+<!-- Dynamic Cyber Architecture Footer Banner -->
 <img src="./assets/footer-banner.svg" width="860" alt="Krushna Patil — Architecture Footer" />
 
 <br><br>
 
 <p align="center">
   <a href="#top">
-    <img src="https://img.shields.io/badge/Back%20To%20Top-▲-E63946?style=flat-square" alt="Back to Top" />
+    <img src="https://img.shields.io/badge/Back%20To%20Top-▲-0284C7?style=flat-square" alt="Back to Top" />
   </a>
 </p>
 
-<sub>⚡ Designed with crimson engineering aesthetics · Auto-generated SVG architecture & refreshed daily via GitHub Actions · Krushna Patil &copy; 2025–2026</sub>
+<sub>⚡ Built with pure SVG architecture & refreshed daily via GitHub Actions · Krushna Patil &copy; 2025–2026</sub>
 
 </div>
 
