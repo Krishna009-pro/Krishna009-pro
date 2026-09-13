@@ -46,11 +46,11 @@ CANVAS_W = ART_W + PAD * 2
 CANVAS_H = TITLEBAR_H + ART_H + STATUS_H + PAD
 
 BG = "#0d1117"
-BG2 = "#111722"
-FRAME = "#30363d"
-TITLE_TEXT = "#7d8590"
-INK = "#c9d1d9"      # the single ascii color (matches Andrew6rant)
-CURSOR = "#c9d1d9"
+BG2 = "#180c10"
+FRAME = "#3a1318"
+TITLE_TEXT = "#ff758f"
+INK = "#f0f6fc"      # crisp light monospace ink
+CURSOR = "#ff4d6d"   # fiery cursor wipe
 
 # ---- reveal timing (one-shot; a cursor rasters top -> bottom) -------------
 ROW_DUR = 0.11
@@ -87,7 +87,7 @@ art_top = TITLEBAR_H + PAD * 0.35
 parts = []
 parts.append(
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{CANVAS_W}" height="{CANVAS_H}" '
-    f'viewBox="0 0 {CANVAS_W} {CANVAS_H}" font-family="ui-monospace, SFMono-Regular, '
+    f'viewBox="0 0 {CANVAS_W} {CANVAS_H}" font-family="\'Fira Code\', ui-monospace, SFMono-Regular, '
     f'Menlo, Consolas, monospace">'
 )
 parts.append('<defs>'

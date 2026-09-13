@@ -1,5 +1,10 @@
 <div align="center">
 
+<!-- Hero Banner Card (Engineering Profile & Architecture Flow) -->
+<img src="./assets/hero-banner.svg" width="860" alt="Krushna Patil — Engineering Profile" />
+
+<br><br>
+
 <!-- Terminal Header: Whoami / Neofetch -->
 <h3><code>krushna@github ~ $ whoami && neofetch</code></h3>
 
@@ -19,9 +24,9 @@
 
 <br>
 
-<!-- Dynamic Animated Typing Bar -->
+<!-- Dynamic Animated Typing Bar (Crimson Red Theme) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+Web+Dev;Builder+%7C+Hackathon+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=FF4D6D&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Builder+%7C+Hackathon+Enthusiast" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -37,7 +42,7 @@
   <a href="https://github.com/Krishna009-pro" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Krishna009-pro&style=for-the-badge&color=58A6FF&label=Profile+Views" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Krishna009-pro&style=for-the-badge&color=E63946&label=Profile+Views" alt="Profile Views" />
 </p>
 
 <br>
@@ -60,6 +65,15 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <br>
 
+<div align="center">
+
+<!-- Core Engineering Pillars -->
+<img src="./assets/engineering-pillars.svg" width="860" alt="Core Engineering Focus Pillars" />
+
+</div>
+
+<br>
+
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
@@ -71,6 +85,17 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 <br><br>
 <!-- Databases, Cloud, DevOps & Tools -->
 <img src="https://skillicons.dev/icons?i=mongodb,mysql,supabase,firebase,docker,linux,git,tailwind,html,css,android,vscode" alt="Databases, Cloud & Dev Tools" />
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+<!-- How I Approach Engineering Work (Workflow Loop) -->
+<img src="./assets/engineering-workflow.svg" width="860" alt="How I Approach Engineering Work" />
 
 </div>
 
@@ -148,18 +173,21 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <div align="center">
 
+<!-- GitHub Streak (Fiery Red Theme) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krishna009-pro&theme=tokyonight&hide_border=true&background=0d1117&ring=39d353&fire=ffa657&currStreakLabel=39d353" height="165" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Krishna009-pro&theme=tokyonight&hide_border=true&background=0d1117&ring=ef4444&fire=ff4d6d&currStreakLabel=ff4d6d&sideLabels=f0f6fc" height="165" alt="GitHub Streak" />
 </a>
 &nbsp;
+<!-- GitHub Stats (Fiery Red Theme) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=58a6ff&icon_color=39d353&count_private=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=ff4d6d&icon_color=ef4444&text_color=e2e8f0&border_color=3a1318&count_private=true" height="165" alt="GitHub Stats" />
 </a>
 
 <br><br>
 
+<!-- Top Languages (Fiery Red Theme) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Krishna009-pro&layout=compact&theme=tokyonight&hide_border=true&background=0d1117&title_color=58a6ff" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Krishna009-pro&layout=compact&theme=tokyonight&hide_border=true&background=0d1117&title_color=ff4d6d&text_color=e2e8f0" height="150" alt="Top Languages" />
 </a>
 
 </div>

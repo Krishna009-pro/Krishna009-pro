@@ -10,6 +10,8 @@ frozen state for Quick Look previews.
 import html
 import os
 
+import json
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
 STATIC = bool(os.environ.get("STATIC"))
@@ -22,28 +24,26 @@ VAL_X = PAD + 92
 LINE_H = 20.5
 
 BG = "#0d1117"
-BG2 = "#111722"
-FRAME = "#30363d"
-MUTED = "#7d8590"
-INK = "#c9d1d9"
-KEY = "#ffa657"      # orange keys (matches Andrew)
-SECTION = "#58a6ff"  # blue section headers
-GREEN = "#3fb950"
-ACCENT = "#22d3ee"
+BG2 = "#180c10"
+FRAME = "#3a1318"
+MUTED = "#8b949e"
+INK = "#f0f6fc"
+KEY = "#ff758f"      # crimson keys
+SECTION = "#ff4d6d"  # vibrant red section headers
+GREEN = "#ef4444"    # red accent
+ACCENT = "#ff4d6d"   # bright red highlight
 
-# ===========================================================================
-#  EDIT THIS  -- your info panel. It re-lays-out automatically; if it gets too
-#  tall for the card, bump H above (and the width= in your profile README).
-#  The username in the header is HOST below.
-#
-#  row types:
-#    ("host",)              -> "you@github" header + rule
-#    ("kv", key, value)     -> orange key + light value
-#    ("sec", title)         -> blue "— title —" section rule
-#    ("bul", text)          -> green dot + light bullet
-#    ("gap",)               -> a little vertical space
-# ===========================================================================
 HOST = "krushna"   # shown as  krushna@github  in the header
+
+contrib_stat = "819+ contributions this year"
+try:
+    cpath = os.path.join(HERE, "..", "data", "contributions.json")
+    if os.path.exists(cpath):
+        with open(cpath, "r", encoding="utf-8") as f:
+            cdata = json.load(f)
+            contrib_stat = f"{cdata.get('total_contributions', 819):,}+ contributions this year"
+except Exception:
+    pass
 
 ROWS = [
     ("host",),
@@ -60,7 +60,7 @@ ROWS = [
     ("gap",),
     ("sec", "Highlights"),
     ("bul", "EY Techathon 6.0 & Meta PyTorch Hackathon"),
-    ("bul", "680+ GitHub contributions this year"),
+    ("bul", contrib_stat),
 ]
 
 
@@ -81,7 +81,7 @@ def rise(inner, i):
 
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-    f'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
+    f'font-family="\'Fira Code\', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
     '<defs>'
     f'<linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">'
     f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/></linearGradient></defs>',
