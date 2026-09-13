@@ -20,7 +20,7 @@ W, H = 480, 376
 PAD = 20
 TITLEBAR_H = 30
 KEY_X = PAD
-VAL_X = PAD + 92
+VAL_X = PAD + 85
 LINE_H = 20.5
 
 BG = "#0d1117"
@@ -47,20 +47,20 @@ except Exception:
 
 ROWS = [
     ("host",),
-    ("kv", "Now", "Full Stack AIML & Data Science"),
-    ("kv", "Study", "B.Tech AI & DS @ ICEM Pune"),
-    ("kv", "Loc", "Pune, Maharashtra, India"),
-    ("kv", "Connect", "in/krushna-patil-b4256b388"),
+    ("kv", "OS", "Ubuntu 24.04 LTS x86_64"),
+    ("kv", "Host", "ICEM-AI-Node // Workstation"),
+    ("kv", "Kernel", "6.8.0-custom-ai-rt"),
+    ("kv", "Uptime", "B.Tech (2024–2028) @ ICEM"),
+    ("kv", "Shell", "zsh 5.9 (tmux, pure-prompt)"),
+    ("kv", "Editor", "VS Code & Neovim"),
+    ("kv", "Compute", "NVIDIA CUDA · TensorRT"),
     ("gap",),
-    ("sec", "Stack"),
-    ("kv", "Languages", "Python, JS, C++, Java, PHP"),
-    ("kv", "AI / ML", "Agentic AI, PyTorch, OpenCV, Scikit"),
-    ("kv", "Full Stack", "FastAPI, React, Node.js, Express"),
-    ("kv", "Databases", "MongoDB, MySQL, Supabase, Firebase"),
-    ("gap",),
-    ("sec", "Highlights"),
-    ("bul", "EY Techathon 6.0 & Meta PyTorch Hackathon"),
-    ("bul", contrib_stat),
+    ("sec", "Architecture & R&D"),
+    ("kv", "Design", "Decoupled Microservices & Event Loops"),
+    ("kv", "Pipelines", "AsyncIO & Low-Latency Streaming"),
+    ("kv", "AI Core", "Autonomous Multi-Agent Orchestration"),
+    ("kv", "Vision", "Real-Time Defect Segmentation & Edge CV"),
+    ("kv", "Standard", "Strict Type Contracts & CI Telemetry"),
 ]
 
 
@@ -129,6 +129,6 @@ for i, row in enumerate(ROWS):
 
 parts.append("</svg>")
 svg = "".join(parts)
-with open(OUT, "w") as f:
+with open(OUT, "w", encoding="utf-8") as f:
     f.write(svg)
 print("wrote", OUT, len(svg), "bytes;", W, "x", H, "content_bottom", round(y))

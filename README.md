@@ -8,7 +8,7 @@
 
 <!-- Dynamic Animated Typing Bar (Crimson Red Theme) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=FF4D6D&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Builder+%7C+Hackathon+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=FF4D6D&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Distributed+Systems+%26+ML+Builder" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -16,7 +16,7 @@
 <table>
   <tr>
     <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Experience, Stack, Highlights" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Environment Specs & Architecture" /></td>
   </tr>
 </table>
 
@@ -26,21 +26,9 @@
 
 <br><br>
 
-<!-- Quick Connect & Socials -->
 <p align="center">
-  <a href="mailto:kkp1882006@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-kkp1882006%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://linkedin.com/in/krushna-patil-b4256b388" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Krushna%20Patil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/Krishna009-pro" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Krishna009-pro&style=for-the-badge&color=E63946&label=Profile+Views" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Krishna009-pro&style=flat-square&color=E63946&label=Profile+Views" alt="Profile Views" />
 </p>
-
-<br>
 
 </div>
 
@@ -55,7 +43,6 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 - 🎓 **Education:** Pursuing **B.Tech in AI & Data Science** (2024 – 2028) — ICEM Pune | Diploma in Computer Engineering — GGSP Polytechnic
 - 🔭 **Currently Engineering:** Autonomous Multi-Agent workflows, edge computer vision defect detectors & scalable full-stack apps
 - 🌱 **Deepening Expertise:** Reinforcement Learning, MLOps orchestration pipelines, Distributed Agent Frameworks
-- 💬 **Core Proficiencies:** Python, FastAPI, PyTorch, React, Node.js, OpenCV, Docker
 - ⚡ **Philosophy:** Writing clean, decoupled, and benchmarked code that solves mission-critical problems
 
 <br>
@@ -171,33 +158,16 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 ---
 
-### 🏆 Hackathons & Engineering Competitions
-
-| Event | Project | Engineering Highlight |
-|---|---|---|
-| 🏦 **EY Techathon 6.0** (BFSI Domain) | **AI-Based Loan Assistant** | Master-Worker agentic architecture orchestrating risk evaluation and loan eligibility |
-| 🔥 **Meta PyTorch Hackathon** | [**CodeForge Pro**](https://github.com/Krishna009-pro/codeforge_pro_env) | Applied Reinforcement Learning (RL) policy gradients in structured coding sandboxes |
-| 🏥 **Mumbai Hackathon** | **Healthcare Management System** | Shipped patient triage & real-time hospital bed monitoring during an intense 24hr sprint |
-| 🎓 **College Hackathon** | **Civic Issue Tracker MVP** | Delivered end-to-end full-stack portal with geospatial issue logging in under 24 hours |
-
-<br>
-
----
-
-### ⚡ Problem Solving & Coding Profiles
+### ⚡ Problem Solving &amp; Competitive Programming
 
 <div align="center">
 
 <a href="https://leetcode.com/u/Krishna009/" target="_blank">
   <img src="https://img.shields.io/badge/LeetCode-Krishna009-E63946?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
 </a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="https://www.hackerrank.com/profile/Krishna009_pro" target="_blank">
   <img src="https://img.shields.io/badge/HackerRank-Krishna009__pro-FF4D6D?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" />
-</a>
-&nbsp;
-<a href="https://github.com/Krishna009-pro?tab=repositories" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-180c10?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repos" />
 </a>
 
 </div>
@@ -226,30 +196,26 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 ---
 
-### 📬 Connect & Collaborate
+### 📬 Connect &amp; Collaborate
 
 <div align="center">
 
 <p align="center">
   <b>Let's build resilient, high-impact systems together.</b><br>
-  Whether you have an opportunity in agentic AI architectures, scalable full-stack development, hackathon collaboration, or open-source engineering — my inbox is always open!
+  Whether you have an opportunity in agentic AI architectures, scalable full-stack development, technical collaborations, or open-source engineering — my inbox is always open!
 </p>
 
 <p align="center">
   <a href="mailto:kkp1882006@gmail.com">
     <img src="https://img.shields.io/badge/Email-kkp1882006%40gmail.com-E63946?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://linkedin.com/in/krushna-patil-b4256b388" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Krushna%20Patil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;
   <a href="https://github.com/Krishna009-pro" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-180c10?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/u/Krishna009/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-Krishna009-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
 </p>
 
