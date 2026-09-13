@@ -32,7 +32,7 @@
   <g class="wf-box" transform="translate(446, 62)">
     <rect width="175" height="46" rx="8" fill="#170a10" stroke="#ff758f" stroke-width="1"/>
     <text x="12" y="18" fill="#ff758f" font-size="8.5" font-weight="700" letter-spacing="0.5">03 / BENCHMARK</text>
-    <text x="12" y="34" fill="#ffffff" font-size="10.5" font-weight="600">Test edges & latency</text>
+    <text x="12" y="34" fill="#ffffff" font-size="10.5" font-weight="600">Test edges &amp; latency</text>
   </g>
   <g transform="translate(631, 82)">
     <line x1="0" y1="0" x2="16" y2="0" stroke="#e63946" stroke-width="1.4" stroke-opacity="0.6"/>
@@ -44,6 +44,6 @@
   <!-- Step 4 -->
   <g class="wf-box" transform="translate(657, 62)">
     <rect width="175" height="46" rx="8" fill="#170a10" stroke="#fb7185" stroke-width="1"/>
-    <text x="12" y="18" fill="#fb7185" font-size="8.5" font-weight="700" letter-spacing="0.5">04 / SHIP & LOG</text>
+    <text x="12" y="18" fill="#fb7185" font-size="8.5" font-weight="700" letter-spacing="0.5">04 / SHIP &amp; LOG</text>
     <text x="12" y="34" fill="#ffffff" font-size="10.5" font-weight="600">Deploy with telemetry</text>
   </g></svg>

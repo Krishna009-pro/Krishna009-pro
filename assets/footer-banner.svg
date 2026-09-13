@@ -35,12 +35,12 @@
 
   <!-- Inspirational Architecture Quote -->
   <text x="430.0" y="38" fill="#f8fafc" font-size="13" font-style="italic" font-weight="500" text-anchor="middle" letter-spacing="0.3">
-    &ldquo;First make it work, then make it right, then make it scale &mdash; with resilient architecture at every tier.&rdquo;
+    &#8220;First make it work, then make it right, then make it scale &#8212; with resilient architecture at every tier.&#8221;
   </text>
 
   <!-- Engineering Signature & Telemetry Status -->
   <text x="430.0" y="62" fill="#ff758f" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="1">
-    KRUSHNA PATIL &middot; AUTONOMOUS AI &middot; HIGH-THROUGHPUT BACKENDS &middot; PUNE, INDIA
+    KRUSHNA PATIL &#183; AUTONOMOUS AI &#183; HIGH-THROUGHPUT BACKENDS &#183; PUNE, INDIA
   </text>
 
   <!-- Pulsing Center Core Status -->

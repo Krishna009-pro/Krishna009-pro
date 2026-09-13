@@ -57,10 +57,10 @@ def generate_hero_banner():
   <rect x="76" y="26" width="36" height="36" rx="9" fill="#260f18" stroke="#5a1e2b" stroke-width="1"/>
   <text x="94" y="49" fill="#ff758f" font-size="18" font-weight="700" text-anchor="middle">&#177;</text>
 
-  <!-- Main Name & Subtitles -->
+    <!-- Main Name & Subtitles -->
   <text x="34" y="85" fill="#ff758f" font-size="10.5" font-weight="700" letter-spacing="2">ENGINEERING PROFILE</text>
   <text x="34" y="117" fill="#ffffff" font-size="27" font-weight="800" letter-spacing="-0.5">Krushna Patil</text>
-  <text x="34" y="141" fill="#cbd5e1" font-size="12.5" font-weight="500">Full Stack AIML &middot; Agentic AI &middot; PyTorch &middot; High-Throughput Systems</text>
+  <text x="34" y="141" fill="#cbd5e1" font-size="12.5" font-weight="500">Full Stack AIML &#183; Agentic AI &#183; PyTorch &#183; High-Throughput Systems</text>
 
   <!-- Open to Roles Pill -->
   <rect x="34" y="156" width="335" height="24" rx="12" fill="#220e16" stroke="#4a1924" stroke-width="1"/>
@@ -122,7 +122,7 @@ def generate_hero_banner():
     <!-- Right Header -->
     <text x="315" y="70" fill="#94a3b8" font-size="9" font-weight="700" letter-spacing="1" text-anchor="end">DESIGNING SYSTEMS THAT ARE</text>
     <text x="315" y="93" fill="#ffffff" font-size="14.5" font-weight="700" text-anchor="end">
-      <tspan fill="#ff4d6d">autonomous</tspan> &middot; <tspan fill="#ffffff">scalable</tspan> &middot; <tspan fill="#f43f5e">resilient</tspan>
+      <tspan fill="#ff4d6d">autonomous</tspan> &#183; <tspan fill="#ffffff">scalable</tspan> &#183; <tspan fill="#f43f5e">resilient</tspan>
     </text>
 
     <!-- Building in Public Status -->
@@ -177,8 +177,8 @@ def generate_engineering_pillars():
     cards = [
         {
             "icon": "+",
-            "title": "Agentic & AI Systems",
-            "tags": "PYTORCH &middot; MULTI-AGENT &middot; LLMS",
+            "title": "Agentic &amp; AI Systems",
+            "tags": "PYTORCH &#183; MULTI-AGENT &#183; LLMS",
             "line1": "Designing autonomous agent loops, prompt contracts,",
             "line2": "and scalable model inference pipelines.",
             "border": "#541b25",
@@ -188,7 +188,7 @@ def generate_engineering_pillars():
         {
             "icon": "&#10003;",
             "title": "High-Performance APIs",
-            "tags": "FASTAPI &middot; ASYNC &middot; NODE.JS",
+            "tags": "FASTAPI &#183; ASYNC &#183; NODE.JS",
             "line1": "Architecting low-latency asynchronous APIs,",
             "line2": "resilient microservices, and event queues.",
             "border": "#541b25",
@@ -197,8 +197,8 @@ def generate_engineering_pillars():
         },
         {
             "icon": "&#9881;",
-            "title": "Vision & Edge Systems",
-            "tags": "OPENCV &middot; TELEMETRY &middot; IOT",
+            "title": "Vision &amp; Edge Systems",
+            "tags": "OPENCV &#183; TELEMETRY &#183; IOT",
             "line1": "Building real-time defect segmentation models,",
             "line2": "sensor telemetry, and predictive maintenance.",
             "border": "#541b25",
@@ -256,8 +256,8 @@ def generate_engineering_workflow():
     steps = [
         {"num": "01 / CLARIFY", "title": "Understand the problem", "border": "#e63946", "bg": "#1c0b11"},
         {"num": "02 / ARCHITECT", "title": "Model decoupled solutions", "border": "#ff4d6d", "bg": "#170a10"},
-        {"num": "03 / BENCHMARK", "title": "Test edges & latency", "border": "#ff758f", "bg": "#170a10"},
-        {"num": "04 / SHIP & LOG", "title": "Deploy with telemetry", "border": "#fb7185", "bg": "#170a10"},
+        {"num": "03 / BENCHMARK", "title": "Test edges &amp; latency", "border": "#ff758f", "bg": "#170a10"},
+        {"num": "04 / SHIP &amp; LOG", "title": "Deploy with telemetry", "border": "#fb7185", "bg": "#170a10"},
     ]
     
     BOX_W = 175
@@ -348,12 +348,12 @@ def generate_footer_banner():
 
   <!-- Inspirational Architecture Quote -->
   <text x="{W/2}" y="38" fill="#f8fafc" font-size="13" font-style="italic" font-weight="500" text-anchor="middle" letter-spacing="0.3">
-    &ldquo;First make it work, then make it right, then make it scale &mdash; with resilient architecture at every tier.&rdquo;
+    &#8220;First make it work, then make it right, then make it scale &#8212; with resilient architecture at every tier.&#8221;
   </text>
 
   <!-- Engineering Signature & Telemetry Status -->
   <text x="{W/2}" y="62" fill="#ff758f" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="1">
-    KRUSHNA PATIL &middot; AUTONOMOUS AI &middot; HIGH-THROUGHPUT BACKENDS &middot; PUNE, INDIA
+    KRUSHNA PATIL &#183; AUTONOMOUS AI &#183; HIGH-THROUGHPUT BACKENDS &#183; PUNE, INDIA
   </text>
 
   <!-- Pulsing Center Core Status -->

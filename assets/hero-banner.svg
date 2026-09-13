@@ -39,10 +39,10 @@
   <rect x="76" y="26" width="36" height="36" rx="9" fill="#260f18" stroke="#5a1e2b" stroke-width="1"/>
   <text x="94" y="49" fill="#ff758f" font-size="18" font-weight="700" text-anchor="middle">&#177;</text>
 
-  <!-- Main Name & Subtitles -->
+    <!-- Main Name & Subtitles -->
   <text x="34" y="85" fill="#ff758f" font-size="10.5" font-weight="700" letter-spacing="2">ENGINEERING PROFILE</text>
   <text x="34" y="117" fill="#ffffff" font-size="27" font-weight="800" letter-spacing="-0.5">Krushna Patil</text>
-  <text x="34" y="141" fill="#cbd5e1" font-size="12.5" font-weight="500">Full Stack AIML &middot; Agentic AI &middot; PyTorch &middot; High-Throughput Systems</text>
+  <text x="34" y="141" fill="#cbd5e1" font-size="12.5" font-weight="500">Full Stack AIML &#183; Agentic AI &#183; PyTorch &#183; High-Throughput Systems</text>
 
   <!-- Open to Roles Pill -->
   <rect x="34" y="156" width="335" height="24" rx="12" fill="#220e16" stroke="#4a1924" stroke-width="1"/>
@@ -104,7 +104,7 @@
     <!-- Right Header -->
     <text x="315" y="70" fill="#94a3b8" font-size="9" font-weight="700" letter-spacing="1" text-anchor="end">DESIGNING SYSTEMS THAT ARE</text>
     <text x="315" y="93" fill="#ffffff" font-size="14.5" font-weight="700" text-anchor="end">
-      <tspan fill="#ff4d6d">autonomous</tspan> &middot; <tspan fill="#ffffff">scalable</tspan> &middot; <tspan fill="#f43f5e">resilient</tspan>
+      <tspan fill="#ff4d6d">autonomous</tspan> &#183; <tspan fill="#ffffff">scalable</tspan> &#183; <tspan fill="#f43f5e">resilient</tspan>
     </text>
 
     <!-- Building in Public Status -->
