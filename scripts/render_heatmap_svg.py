@@ -107,7 +107,7 @@ def render(data):
   100% {{ opacity: 1; transform: translateY(0); }}
 }}
 .c {{ opacity: 0; animation: cell {CELL_DUR:.2f}s cubic-bezier(.2,.8,.2,1) both; }}
-.c:hover {{ stroke: #ff4d6d; stroke-width: 1.3px; cursor: pointer; }}
+.c:hover {{ stroke: #ff4d6d; stroke-width: 1.5px; filter: brightness(1.25); cursor: pointer; }}
 """.strip()
 
     parts = [
@@ -125,9 +125,8 @@ def render(data):
     ]
     for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
-    user = os.environ.get("GH_PROFILE_USER", "krushna")
     parts.append(f'<text x="{canvas_w/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
-                 f'text-anchor="middle">{user}@github: ~/contributions --live</text>')
+                 f'text-anchor="middle">krushna@github: ~$ ./contributions.sh --live</text>')
 
     grid_top = TITLEBAR_H + TOP_LABEL_H
     grid_left = PAD + LEFT_LABEL_W
@@ -175,21 +174,25 @@ def render(data):
     best = data["best_day"]
     rng = data["range"]
     active = data.get("active_days", 0)
+    avg = data.get("avg_per_active_day", 0)
 
     ly = sep_y + 24
     # left column: big highlighted numbers; right column: context in muted
-    parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{RED}">'
+    parts.append(f'<circle cx="{PAD + 5}" cy="{ly - 4}" r="3.5" fill="{RED}"/>')
+    parts.append(f'<text x="{PAD + 15}" y="{ly}" font-size="13" fill="{RED}">'
                  f'<tspan font-weight="700">{total:,}</tspan>'
                  f'<tspan fill="{MUTED}"> contributions in the last year</tspan></text>')
     parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">'
                  f'{rng["start"]} &#8594; {rng["end"]}</text>')
     ly += 24
-    parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{MUTED}">current streak '
+    parts.append(f'<text x="{PAD}" y="{ly}" font-size="12.5" fill="{MUTED}">current streak '
                  f'<tspan fill="{ACCENT}" font-weight="700">{cs} days</tspan>'
                  f'<tspan fill="{MUTED}">   &#183;   longest </tspan>'
                  f'<tspan fill="{ACCENT}" font-weight="700">{ls} days</tspan>'
                  f'<tspan fill="{MUTED}">   &#183;   active </tspan>'
-                 f'<tspan fill="{RED}" font-weight="700">{active} days</tspan></text>')
+                 f'<tspan fill="{RED}" font-weight="700">{active} days</tspan>'
+                 f'<tspan fill="{MUTED}">   &#183;   avg </tspan>'
+                 f'<tspan fill="{GOLD}" font-weight="700">{avg}/day</tspan></text>')
     parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">'
                  f'best day <tspan fill="{GOLD}" font-weight="700">{best["count"]}</tspan> on {best["date"]}</text>')
 

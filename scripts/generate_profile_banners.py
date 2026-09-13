@@ -71,17 +71,29 @@ def generate_hero_banner():
 
   <!-- Right Side: Architecture Flow & Taglines -->
   <g transform="translate(510, 32)">
-    <!-- Circuit Architecture Flow Diagram -->
+    <!-- Circuit Architecture Flow Diagram with Animated Packets -->
     <rect x="0" y="0" width="56" height="22" rx="6" fill="#1e0b12" stroke="#e63946" stroke-width="1"/>
     <text x="28" y="14.5" fill="#fecdd3" font-size="9" font-weight="700" text-anchor="middle">INGEST</text>
 
+    <!-- Wire: Ingest -> Agent -->
     <line x1="56" y1="11" x2="74" y2="11" stroke="#ff4d6d" stroke-width="1.2"/>
+    <circle r="1.8" fill="#ff758f">
+      <animateMotion path="M 56 11 L 74 11" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
 
     <rect x="74" y="0" width="58" height="22" rx="6" fill="#1e0b12" stroke="#e63946" stroke-width="1"/>
     <text x="103" y="14.5" fill="#fecdd3" font-size="9" font-weight="700" text-anchor="middle">AGENT</text>
 
-    <path d="M 132 11 L 144 5 L 156 5" fill="none" stroke="#ff4d6d" stroke-width="1.2"/>
-    <path d="M 132 11 L 144 17 L 156 17" fill="none" stroke="#ff4d6d" stroke-width="1.2"/>
+    <!-- Branch Wires -->
+    <path id="flow-top" d="M 132 11 L 144 5 L 156 5" fill="none" stroke="#ff4d6d" stroke-width="1.2"/>
+    <circle r="1.8" fill="#ffffff">
+      <animateMotion path="M 132 11 L 144 5 L 156 5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <path id="flow-bot" d="M 132 11 L 144 17 L 156 17" fill="none" stroke="#ff4d6d" stroke-width="1.2"/>
+    <circle r="1.8" fill="#ff4d6d">
+      <animateMotion path="M 132 11 L 144 17 L 156 17" dur="1.8s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
 
     <rect x="156" y="-3" width="70" height="15" rx="4" fill="#290e18" stroke="#ff4d6d" stroke-width="1"/>
     <text x="191" y="8" fill="#ff758f" font-size="8" font-weight="700" text-anchor="middle">LLM / RAG</text>
@@ -89,8 +101,12 @@ def generate_hero_banner():
     <rect x="156" y="13" width="70" height="15" rx="4" fill="#290e18" stroke="#ff4d6d" stroke-width="1"/>
     <text x="191" y="24" fill="#ff758f" font-size="8" font-weight="700" text-anchor="middle">MODEL</text>
 
+    <!-- Convergence Wires -->
     <path d="M 226 5 L 238 5 L 246 11" fill="none" stroke="#ff4d6d" stroke-width="1.2"/>
     <path d="M 226 20 L 238 20 L 246 11" fill="none" stroke="#ff4d6d" stroke-width="1.2"/>
+    <circle r="1.8" fill="#ffffff">
+      <animateMotion path="M 226 5 L 238 5 L 256 11" dur="1.6s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
 
     <circle cx="270" cy="11" r="14" fill="#220b13" stroke="#e63946" stroke-width="1.2"/>
     <text x="270" y="14.5" fill="#ffffff" font-size="8.5" font-weight="700" text-anchor="middle">DEPLOY</text>
@@ -99,6 +115,9 @@ def generate_hero_banner():
     <circle cx="304" cy="25" r="11" fill="#19070e" stroke="#ff4d6d" stroke-width="0.9"/>
     <text x="304" y="28" fill="#ff758f" font-size="7.5" font-weight="700" text-anchor="middle">OPS</text>
     <line x1="284" y1="13" x2="294" y2="20" stroke="#ff4d6d" stroke-width="1"/>
+    <circle r="1.5" fill="#ff4d6d">
+      <animateMotion path="M 284 13 L 294 20" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
 
     <!-- Right Header -->
     <text x="315" y="70" fill="#94a3b8" font-size="9" font-weight="700" letter-spacing="1" text-anchor="end">DESIGNING SYSTEMS THAT ARE</text>
@@ -190,6 +209,10 @@ def generate_engineering_pillars():
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="\'Fira Code\', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
+        '''<style>
+          .p-card { transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+          .p-card:hover { filter: drop-shadow(0 0 12px rgba(230, 57, 70, 0.45)); stroke: #ff4d6d; }
+        </style>''',
         f'<rect width="{W}" height="{H}" rx="12" fill="#0c090e"/>',
         f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="12" fill="none" stroke="#2a1218" stroke-width="1"/>',
     ]
@@ -200,7 +223,7 @@ def generate_engineering_pillars():
         cx = start_x + i * (CARD_W + 17)
         parts.append(f'''
   <!-- Pillar Card {i+1} -->
-  <g transform="translate({cx}, {y})">
+  <g class="p-card" transform="translate({cx}, {y})">
     <rect width="{CARD_W}" height="{CARD_H}" rx="10" fill="#13090e" stroke="{c['border']}" stroke-width="1"/>
     
     <!-- Badge Icon -->
@@ -242,6 +265,10 @@ def generate_engineering_workflow():
     
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="\'Fira Code\', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
+        '''<style>
+          .wf-box { transition: all 0.25s ease; }
+          .wf-box:hover { filter: drop-shadow(0 0 8px rgba(255, 77, 109, 0.4)); stroke-width: 1.5; }
+        </style>''',
         f'<rect width="{W}" height="{H}" rx="12" fill="#0c090e"/>',
         f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="12" fill="none" stroke="#2a1218" stroke-width="1"/>',
         '<text x="24" y="28" fill="#ffffff" font-size="14.5" font-weight="700">How I approach engineering work</text>',
@@ -254,19 +281,22 @@ def generate_engineering_workflow():
         bx = start_x + i * (BOX_W + 36)
         parts.append(f'''
   <!-- Step {i+1} -->
-  <g transform="translate({bx}, {box_y})">
+  <g class="wf-box" transform="translate({bx}, {box_y})">
     <rect width="{BOX_W}" height="{BOX_H}" rx="8" fill="{s['bg']}" stroke="{s['border']}" stroke-width="1"/>
     <text x="12" y="18" fill="{s['border']}" font-size="8.5" font-weight="700" letter-spacing="0.5">{s['num']}</text>
     <text x="12" y="34" fill="#ffffff" font-size="10.5" font-weight="600">{s['title']}</text>
   </g>''')
         
-        # Arrow connector between steps
+        # Arrow connector between steps with pulsing packet
         if i < len(steps) - 1:
             ax = bx + BOX_W + 10
             parts.append(f'''
   <g transform="translate({ax}, {box_y + 20})">
     <line x1="0" y1="0" x2="16" y2="0" stroke="#e63946" stroke-width="1.4" stroke-opacity="0.6"/>
     <polyline points="12,-4 16,0 12,4" fill="none" stroke="#e63946" stroke-width="1.4" stroke-opacity="0.6"/>
+    <circle r="1.8" fill="#ffffff">
+      <animateMotion path="M 0 0 L 16 0" dur="1.2s" begin="{i*0.25}s" repeatCount="indefinite"/>
+    </circle>
   </g>''')
 
     parts.append('</svg>')

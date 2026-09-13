@@ -1,6 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="142" viewBox="0 0 860 142" font-family="'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><rect width="860" height="142" rx="12" fill="#0c090e"/><rect x="0.5" y="0.5" width="859" height="141" rx="12" fill="none" stroke="#2a1218" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="142" viewBox="0 0 860 142" font-family="'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><style>
+          .p-card { transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+          .p-card:hover { filter: drop-shadow(0 0 12px rgba(230, 57, 70, 0.45)); stroke: #ff4d6d; }
+        </style><rect width="860" height="142" rx="12" fill="#0c090e"/><rect x="0.5" y="0.5" width="859" height="141" rx="12" fill="none" stroke="#2a1218" stroke-width="1"/>
   <!-- Pillar Card 1 -->
-  <g transform="translate(18, 14)">
+  <g class="p-card" transform="translate(18, 14)">
     <rect width="264" height="114" rx="10" fill="#13090e" stroke="#541b25" stroke-width="1"/>
     
     <!-- Badge Icon -->
@@ -18,7 +21,7 @@
     </text>
   </g>
   <!-- Pillar Card 2 -->
-  <g transform="translate(299, 14)">
+  <g class="p-card" transform="translate(299, 14)">
     <rect width="264" height="114" rx="10" fill="#13090e" stroke="#541b25" stroke-width="1"/>
     
     <!-- Badge Icon -->
@@ -36,7 +39,7 @@
     </text>
   </g>
   <!-- Pillar Card 3 -->
-  <g transform="translate(580, 14)">
+  <g class="p-card" transform="translate(580, 14)">
     <rect width="264" height="114" rx="10" fill="#13090e" stroke="#541b25" stroke-width="1"/>
     
     <!-- Badge Icon -->

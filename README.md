@@ -106,27 +106,27 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 ### 🚀 Featured Projects
 
 #### 🌉 [ML-Driven Bridge Maintenance & Lifespan Prediction System](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
-> `Python` · `OpenCV` · `Machine Learning` · `IoT Telemetry` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
+> `Python` · `OpenCV` · `Machine Learning` · `IoT Telemetry` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
 - Synthesizes real-time IoT vibration and strain telemetry with machine learning regression models to predict structural fatigue and degradation indices.
 - Engineered automated **computer vision crack detection** using OpenCV morphological contouring and filtering to flag defects at scale.
 
 #### 🎓 [Student Hub — Accommodation & Course Tracker](https://github.com/Krishna009-pro/students-accommodation-finder)
-> `MongoDB` · `Express.js` · `React.js` · `Node.js` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
+> `MongoDB` · `Express.js` · `React.js` · `Node.js` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
 - Full-stack MERN ecosystem built to streamline student housing discovery, roommate verification, and academic milestone tracking.
 - Architected normalized MongoDB schemas with aggregation pipelines, JWT authentication, and a responsive modern dashboard.
 
 #### ☁️ [Aura Drive — Cloud File & Media Vault](https://github.com/Krishna009-pro/aura-drive)
-> `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/aura-drive)
+> `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/aura-drive)
 - Asynchronous high-throughput media storage vault supporting categorized file uploads, live streaming, and instant asset transformation.
 - Powered by a Python FastAPI asynchronous backend interfacing with ImageKit CDN and client-side React state handling.
 
 #### 🤖 [Desktop Jarvis — Voice-Driven AI Assistant](https://github.com/Krishna009-pro/Desktop-Jarvis)
-> `Python` · `NLP` · `System Automation` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
+> `Python` · `NLP` · `System Automation` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
 - Hands-free desktop voice assistant executing operating system routines, background automation, and real-time natural language query routing.
 - Built with non-blocking audio event loops and intent parsing for low-latency command dispatch.
 
 #### 🌟 [StorySpark AI — Interactive Storytelling Platform](https://github.com/Krishna009-pro/story-spark-ai)
-> `AI/LLM` · `Full-Stack` · `Prompt Engineering` · [![Repo](https://img.shields.io/badge/View_Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Krishna009-pro/story-spark-ai)
+> `AI/LLM` · `Full-Stack` · `Prompt Engineering` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-E63946?style=flat-square&logo=github)](https://github.com/Krishna009-pro/story-spark-ai)
 - Interactive generative AI storytelling engine that dynamically builds branching storylines based on user decisions while preserving narrative memory.
 - Enforces strict JSON prompt contracts to ensure consistent world rules and character persona retention across turns.
 
@@ -152,15 +152,15 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 <div align="center">
 
 <a href="https://leetcode.com/u/Krishna009/" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-Krishna009-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/LeetCode-Krishna009-E63946?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
 </a>
 &nbsp;
 <a href="https://www.hackerrank.com/profile/Krishna009_pro" target="_blank">
-  <img src="https://img.shields.io/badge/HackerRank-Krishna009__pro-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" />
+  <img src="https://img.shields.io/badge/HackerRank-Krishna009__pro-FF4D6D?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" />
 </a>
 &nbsp;
 <a href="https://github.com/Krishna009-pro?tab=repositories" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repos" />
+  <img src="https://img.shields.io/badge/GitHub-Krishna009--pro-180c10?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repos" />
 </a>
 
 </div>
