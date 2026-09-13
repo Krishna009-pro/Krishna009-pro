@@ -16,7 +16,7 @@
 <table>
   <tr>
     <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Environment Specs & Architecture" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Cyber Workstation" /></td>
   </tr>
 </table>
 
@@ -24,11 +24,6 @@
 
 <!-- 3D Isometric Contribution Graph & Activity Radar -->
 <img src="./assets/profile-3d-contrib.svg" width="860" alt="3D Isometric Contribution Graph &amp; Activity Radar" />
-
-<br><br>
-
-<!-- Live GitHub Contribution Heatmap -->
-<img src="./contrib-heatmap.svg" width="860" alt="Live GitHub Contribution Heatmap" />
 
 <br><br>
 
@@ -188,12 +183,7 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <!-- GitHub Stats & Velocity (Stars, Commits, PRs, Contributed-to) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&count_private=true" height="165" alt="GitHub Stats" />
-</a>
-&nbsp;&nbsp;
-<!-- Top Languages Distribution -->
-<a href="https://github.com/Krishna009-pro">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Krishna009-pro&layout=compact&theme=tokyonight&hide_border=true&background=0d1117&title_color=38bdf8&text_color=e2e8f0" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Krishna009-pro&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&count_private=true" height="175" alt="GitHub Stats" />
 </a>
 
 </div>
