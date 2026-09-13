@@ -22,6 +22,12 @@
 
 <br><br>
 
+<!-- 3D Isometric Contribution Graph & Activity Radar -->
+<img src="./assets/profile-3d-contrib.svg" width="860" alt="3D Isometric Contribution Graph &amp; Activity Radar" />
+
+<br><br>
+
+<!-- Live GitHub Contribution Heatmap -->
 <img src="./contrib-heatmap.svg" width="860" alt="Live GitHub Contribution Heatmap" />
 
 <br><br>

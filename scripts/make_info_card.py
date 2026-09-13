@@ -26,6 +26,7 @@ FRAME = "#30363d"
 MUTED = "#8b949e"
 INK = "#f0f6fc"
 KEY = "#38bdf8"       # cyber cyan keys
+CYAN = "#38bdf8"      # electric cyan
 SECTION = "#818cf8"   # electric indigo section headers
 GREEN = "#39d353"     # emerald accent
 ACCENT = "#38bdf8"    # electric cyan
@@ -144,6 +145,20 @@ parts.append(f'''
   </g>
 ''')
 
+ROW_ICONS = {
+    "OS": ("#0284c7", "#0c4a6e", "OS"),
+    "Host": ("#38bdf8", "#075985", "SRV"),
+    "Kernel": ("#818cf8", "#312e81", "KRN"),
+    "Uptime": ("#10b981", "#064e3b", "UP"),
+    "Shell": ("#06b6d4", "#164e63", ">_"),
+    "Editor": ("#a78bfa", "#4c1d95", "IDE"),
+    "Compute": ("#f59e0b", "#78350f", "GPU"),
+    "AI Core": ("#818cf8", "#312e81", "AI"),
+    "Backends": ("#38bdf8", "#075985", "API"),
+    "Vision": ("#10b981", "#064e3b", "CV"),
+    "Standard": ("#06b6d4", "#164e63", "CI"),
+}
+
 # Left side: Specs & Architecture Focus
 y = TITLEBAR_H + 28
 for i, row in enumerate(ROWS):
@@ -153,21 +168,26 @@ for i, row in enumerate(ROWS):
         continue
     if kind == "host":
         host = esc(HOST)
-        inner = (f'<text x="{KEY_X}" y="{y:.1f}" font-size="13" font-weight="700">'
+        inner = (f'<rect x="18" y="{y-11:.1f}" width="16" height="14" rx="3" fill="#1e293b" stroke="{FRAME}"/>'
+                 f'<text x="26" y="{y-1:.1f}" fill="{CYAN}" font-size="7.5" font-weight="800" text-anchor="middle">#</text>'
+                 f'<text x="40" y="{y:.1f}" font-size="12.5" font-weight="700">'
                  f'<tspan fill="{KEY}">{host}</tspan><tspan fill="{MUTED}">@</tspan>'
                  f'<tspan fill="{SECTION}">github</tspan></text>'
-                 f'<line x1="{KEY_X + 110}" y1="{y-4:.1f}" x2="310" y2="{y-4:.1f}" '
+                 f'<line x1="148" y1="{y-4:.1f}" x2="310" y2="{y-4:.1f}" '
                  f'stroke="{FRAME}" stroke-opacity="0.8"/>')
     elif kind == "sec":
         title = esc(row[1])
-        inner = (f'<text x="{KEY_X}" y="{y:.1f}" fill="{SECTION}" font-size="11.5" font-weight="700">'
+        inner = (f'<text x="18" y="{y:.1f}" fill="{SECTION}" font-size="11" font-weight="700">'
                  f'&#8212; {title}</text>'
-                 f'<line x1="{KEY_X + 145}" y1="{y-4:.1f}" x2="310" y2="{y-4:.1f}" '
+                 f'<line x1="150" y1="{y-4:.1f}" x2="310" y2="{y-4:.1f}" '
                  f'stroke="{FRAME}" stroke-opacity="0.8"/>')
     elif kind == "kv":
         key, val = esc(row[1]), esc(row[2])
-        inner = (f'<text x="{KEY_X}" y="{y:.1f}" fill="{KEY}" font-size="11" font-weight="700">{key}</text>'
-                 f'<text x="{VAL_X}" y="{y:.1f}" fill="{INK}" font-size="11">{val}</text>')
+        icon_fg, icon_bg, icon_txt = ROW_ICONS.get(row[1], (KEY, FRAME, "::"))
+        inner = (f'<rect x="18" y="{y-11:.1f}" width="18" height="13" rx="3" fill="{icon_bg}" stroke="{icon_fg}" stroke-width="0.7"/>'
+                 f'<text x="27" y="{y-1:.1f}" fill="{icon_fg}" font-size="7.5" font-weight="800" text-anchor="middle">{icon_txt}</text>'
+                 f'<text x="42" y="{y:.1f}" fill="{KEY}" font-size="11" font-weight="700">{key}</text>'
+                 f'<text x="100" y="{y:.1f}" fill="{INK}" font-size="10.5">{val}</text>')
     else:
         continue
     parts.append(rise(inner, i))

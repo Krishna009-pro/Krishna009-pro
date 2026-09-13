@@ -29,6 +29,7 @@ jobs:
       - name: Render heatmap and cards
         run: |
           python scripts/render_heatmap_svg.py
+          python scripts/render_3d_heatmap.py
           python scripts/make_info_card.py
           python scripts/generate_profile_banners.py
 

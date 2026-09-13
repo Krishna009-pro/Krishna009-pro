@@ -46,11 +46,11 @@ CANVAS_W = ART_W + PAD * 2
 CANVAS_H = TITLEBAR_H + ART_H + STATUS_H + PAD
 
 BG = "#0d1117"
-BG2 = "#180c10"
-FRAME = "#3a1318"
-TITLE_TEXT = "#ff758f"
+BG2 = "#161b22"
+FRAME = "#30363d"
+TITLE_TEXT = "#8b949e"
 INK = "#f0f6fc"      # crisp light monospace ink
-CURSOR = "#ff4d6d"   # fiery cursor wipe
+CURSOR = "#38bdf8"   # cyber cyan cursor wipe
 
 # ---- reveal timing (one-shot; a cursor rasters top -> bottom) -------------
 ROW_DUR = 0.11
