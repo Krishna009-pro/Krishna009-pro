@@ -5,8 +5,12 @@
 
 <br><br>
 
-<!-- Terminal Header: Whoami / Neofetch -->
-<h3><code>krushna@github ~ $ whoami && neofetch</code></h3>
+<!-- Dynamic Animated Typing Bar (Crimson Red Theme) -->
+<a href="https://github.com/Krishna009-pro">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=FF4D6D&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Builder+%7C+Hackathon+Enthusiast" alt="Typing SVG" />
+</a>
+
+<br><br>
 
 <table>
   <tr>
@@ -17,17 +21,7 @@
 
 <br><br>
 
-<!-- Terminal Header: Live Contributions -->
-<h3><code>krushna@github ~ $ ./contributions.sh --live</code></h3>
-
 <img src="./contrib-heatmap.svg" width="860" alt="Live GitHub Contribution Heatmap" />
-
-<br>
-
-<!-- Dynamic Animated Typing Bar (Crimson Red Theme) -->
-<a href="https://github.com/Krishna009-pro">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=FF4D6D&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Builder+%7C+Hackathon+Enthusiast" alt="Typing SVG" />
-</a>
 
 <br><br>
 
