@@ -163,12 +163,12 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <div align="center">
 
-<a href="https://leetcode.com/u/Krishna009/" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-Krishna009-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+<a href="https://leetcode.com/u/krishna_ultimate_coder/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-krishna_ultimate_coder-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
 </a>
 &nbsp;&nbsp;
-<a href="https://www.hackerrank.com/profile/Krishna009_pro" target="_blank">
-  <img src="https://img.shields.io/badge/HackerRank-Krishna009__pro-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" />
+<a href="https://www.hackerrank.com/profile/kkp1882006" target="_blank">
+  <img src="https://img.shields.io/badge/HackerRank-kkp1882006-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" />
 </a>
 
 </div>
