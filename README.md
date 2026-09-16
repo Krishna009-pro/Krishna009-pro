@@ -4,14 +4,14 @@
 <!-- Hero Banner Card (Engineering Profile & Architecture Flow) -->
 <img src="./assets/hero-banner.svg" width="860" alt="Krushna Patil — Engineering Profile" />
 
-<br><br>
+<br>
 
 <!-- Dynamic Animated Typing Bar (Cyber Cyan Theme) -->
 <a href="https://github.com/Krishna009-pro">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Distributed+Systems+%26+ML+Builder" alt="Typing SVG" />
 </a>
 
-<br><br>
+<br>
 
 <table>
   <tr>
