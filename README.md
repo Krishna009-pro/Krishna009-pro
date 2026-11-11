@@ -35,6 +35,18 @@
 
 ---
 
+<div align="center">
+
+<a href="#about-me">About</a> ·
+<a href="#engineering-focus">Focus</a> ·
+<a href="#tech-stack--ecosystem">Stack</a> ·
+<a href="#featured-projects">Projects</a> ·
+<a href="#connect--collaborate">Contact</a>
+
+</div>
+
+<br>
+
 ### 🧠 About Me
 
 > *"I enjoy building things — whether that's an ML model, an agentic AI system, a full-stack app, or a reliable data pipeline."*
@@ -45,6 +57,17 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 - 🔭 **Currently Engineering:** Autonomous Multi-Agent workflows, edge computer vision defect detectors & scalable full-stack apps
 - 🌱 **Deepening Expertise:** Reinforcement Learning, MLOps orchestration pipelines, Distributed Agent Frameworks
 - ⚡ **Philosophy:** Writing clean, decoupled, and benchmarked code that solves mission-critical problems
+
+<br>
+
+<a id="engineering-focus"></a>
+### 🎯 Engineering Focus
+
+| Area | What I build |
+| --- | --- |
+| **Agentic AI** | Multi-agent workflows with reliable routing, structured outputs, and persistent context |
+| **Applied ML & Vision** | Defect detection, predictive maintenance, and models connected to real-world telemetry |
+| **Scalable Applications** | FastAPI and MERN systems with clean APIs, asynchronous workloads, and practical UX |
 
 <br>
 
@@ -59,6 +82,7 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 ---
 
+<a id="tech-stack--ecosystem"></a>
 ### 🛠️ Tech Stack & Ecosystem
 
 <div align="center">
@@ -128,6 +152,7 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 ---
 
+<a id="featured-projects"></a>
 ### 🚀 Featured Projects
 
 #### 🌉 [ML-Driven Bridge Maintenance & Lifespan Prediction System](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
@@ -192,6 +217,7 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 ---
 
+<a id="connect--collaborate"></a>
 ### 📬 Connect &amp; Collaborate
 
 <div align="center">
