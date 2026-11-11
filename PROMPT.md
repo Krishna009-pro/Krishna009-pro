@@ -38,7 +38,7 @@ Here is exactly what I want you to do, in order:
 
 4. Info panel: edit the ROWS list + HOST at the top of scripts/make_info_card.py
    with my real experience / stack / highlights (NOT github stats -- the graph
-   covers those), then run it to produce info-card.svg. Keep it the same height
+   covers those), then run it to produce agentic-systems.svg. Keep it the same height
    as the portrait; if it overflows, bump H in the script.
 
 5. Contribution graph: run `python scripts/fetch_contributions.py` (set

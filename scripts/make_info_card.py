@@ -2,7 +2,7 @@
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "..", "info-card.svg")
+OUT = os.path.join(HERE, "..", "agentic-systems.svg")
 
 WIDTH = 980
 HEIGHT = 770

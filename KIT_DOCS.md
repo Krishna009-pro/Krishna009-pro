@@ -13,7 +13,7 @@ in your photo and details, and ship your own.
 <table>
 <tr>
 <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII portrait" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="Experience, stack, highlights" /></td>
+<td valign="top"><img src="./agentic-systems.svg" width="490" alt="Animated agentic AI systems dashboard" /></td>
 </tr>
 </table>
 
@@ -63,7 +63,7 @@ python scripts/prep_photo.py path/to/your-photo.jpg source-prepped.png
 python scripts/make_ascii_svg.py              # -> avi-ascii.svg
 
 # 2. info panel  (edit the ROWS + HOST at the top of the script first)
-python scripts/make_info_card.py              # -> info-card.svg (animated AI systems visual)
+python scripts/make_info_card.py              # -> agentic-systems.svg (animated AI systems visual)
 
 # 3. contribution graph
 GH_PROFILE_USER=YOUR_USERNAME python scripts/fetch_contributions.py
