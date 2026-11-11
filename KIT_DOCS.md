@@ -43,7 +43,7 @@ requirements-local.txt       deps for the one-time local image prep
 scripts/
   prep_photo.py              rembg background removal + CLAHE contrast (run once)
   make_ascii_svg.py          photo  -> typing monochrome ASCII portrait
-  make_info_card.py          your experience/stack -> neofetch info panel  <- EDIT
+  make_info_card.py          animated agentic AI systems visual
   fetch_contributions.py     scrapes your real contributions (no auth)
   render_heatmap_svg.py      contributions -> animated box graph
   requirements.txt           deps the daily workflow needs
@@ -63,7 +63,7 @@ python scripts/prep_photo.py path/to/your-photo.jpg source-prepped.png
 python scripts/make_ascii_svg.py              # -> avi-ascii.svg
 
 # 2. info panel  (edit the ROWS + HOST at the top of the script first)
-python scripts/make_info_card.py              # -> info-card.svg
+python scripts/make_info_card.py              # -> info-card.svg (animated AI systems visual)
 
 # 3. contribution graph
 GH_PROFILE_USER=YOUR_USERNAME python scripts/fetch_contributions.py
@@ -85,5 +85,5 @@ After that it updates itself daily.
 | --------------------------- | ----- |
 | Punchier / lighter face     | `CONTRAST`, `GAMMA`, `WHITE_FLOOR` in `make_ascii_svg.py`; `clipLimit` in `prep_photo.py` |
 | Type faster / slower        | `ROW_DUR`, `STAGGER` in `make_ascii_svg.py` |
-| Change experience / stack   | `ROWS` and `HOST` in `make_info_card.py` |
-| Info panel too tall         | bump `H` in `make_info_card.py`, then re-match `width=` in the README |
+| Change the visual           | edit the SVG layout in `make_info_card.py` |
+| Visual too tall              | keep its 980x770 ratio, then re-match `width=` in the README |
