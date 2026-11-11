@@ -250,6 +250,13 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 <br><br>
 
+<!-- Anime footer animation referenced from Epsilon-Alpha's profile -->
+<a href="https://github.com/Epsilon-Alpha">
+  <img src="https://i.imgur.com/9tIFmUS.gif" width="420" alt="Animated Naruto footer" />
+</a>
+
+<br><br>
+
 <p align="center">
   <a href="#top">
     <img src="https://img.shields.io/badge/Back%20To%20Top-▲-0284C7?style=flat-square" alt="Back to Top" />
