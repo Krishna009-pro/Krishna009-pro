@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" role="img" aria-labelledby="title desc">
+  <title id="title">Animated BUILD CONNECT SHIP banner</title>
+  <desc id="desc">A clean cyber-cyan animated banner for an AI and software engineering profile.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#10152b"/>
+      <stop offset="1" stop-color="#17133a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#38bdf8" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="2" y="2" width="976" height="276" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect width="980" height="280" rx="18" fill="url(#background)"/>
+  <rect width="980" height="280" rx="18" fill="url(#grid)"/>
+  <g clip-path="url(#frame)" font-family="'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <path d="M0 226H980" stroke="#38bdf8" stroke-opacity="0.12"/>
+    <path d="M56 0V280M924 0V280" stroke="#38bdf8" stroke-opacity="0.07"/>
+
+    <text x="54" y="58" fill="#38bdf8" font-size="16" font-weight="700" letter-spacing="4">AI / FULL STACK / DATA</text>
+    <text x="54" y="116" fill="#e0f2fe" font-size="38" font-weight="700" letter-spacing="2">BUILD · CONNECT · SHIP</text>
+    <text x="56" y="151" fill="#94a3b8" font-size="16">autonomous ideas → reliable systems</text>
+
+    <g fill="none" stroke="url(#accent)" stroke-width="2">
+      <path d="M690 76C770 18 880 46 916 108C950 166 874 232 786 210C710 192 672 128 690 76Z" stroke-opacity="0.45"/>
+      <path d="M754 60C830 42 892 84 884 140C876 196 794 214 748 170C710 134 718 78 754 60Z" stroke-opacity="0.3"/>
+    </g>
+    <g fill="#e0f2fe" filter="url(#glow)">
+      <circle r="4">
+        <animateMotion path="M690 76C770 18 880 46 916 108C950 166 874 232 786 210C710 192 672 128 690 76Z" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3" opacity="0.7">
+        <animateMotion path="M754 60C830 42 892 84 884 140C876 196 794 214 748 170C710 134 718 78 754 60Z" dur="4.5s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g fill="#bae6fd" font-size="13" text-anchor="middle" font-weight="700">
+      <text x="790" y="104">AI</text>
+      <text x="853" y="137">API</text>
+      <text x="789" y="180">ML</text>
+    </g>
+    <circle cx="820" cy="142" r="13" fill="#0b1830" stroke="#38bdf8" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="r" values="11;15;11" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="142" r="4" fill="#e0f2fe"/>
+
+    <g fill="#38bdf8">
+      <circle cx="54" cy="214" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="70" cy="214" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" begin="0.3s" repeatCount="indefinite"/></circle>
+      <circle cx="86" cy="214" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="108" y="219" fill="#64748b" font-size="13">SYSTEMS ONLINE</text>
+    <rect x="760" y="213" width="164" height="4" rx="2" fill="#1e293b"/>
+    <rect x="760" y="213" width="112" height="4" rx="2" fill="url(#accent)">
+      <animate attributeName="width" values="52;148;84;112;52" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="978" height="278" rx="18" fill="none" stroke="#38bdf8" stroke-opacity="0.55"/>
+</svg>
