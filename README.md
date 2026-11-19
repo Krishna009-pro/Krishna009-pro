@@ -159,25 +159,25 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 <a id="featured-projects"></a>
 ### 🚀 Featured Projects
 
-#### 🌉 [ML-Driven Bridge Maintenance & Lifespan Prediction System](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
-> `Python` · `Java` · `React` · `OpenCV` · `IoT` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
-- Multi-layer bridge-monitoring project with Arduino/NodeMCU sensor code, Java Tomcat services, Python prediction servers, and a React dashboard.
-- Contains OpenCV vehicle-counting and structural-crack-processing experiments; the repository also includes MySQL database scripts.
-
-#### 🎓 [Student Hub — Accommodation & Course Tracker](https://github.com/Krishna009-pro/students-accommodation-finder)
-> `TypeScript` · `React` · `Express` · `Firebase` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
-- React and TypeScript application for discovering student accommodation and comparing properties.
-- Includes an Express backend, Firebase configuration, property/review APIs, and AI-related controller routes.
-
-#### ☁️ [Aura Drive — Cloud File & Media Vault](https://github.com/Krishna009-pro/aura-drive)
-> `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/aura-drive)
-- FastAPI file-management application using SQLAlchemy, FastAPI Users, SQLite, and ImageKit.
-- Includes authentication, file uploads, ownership checks, and a vanilla JavaScript frontend.
-
 #### 🤖 [RAPHAEL-OS — Active Intelligence Operating System](https://github.com/Krishna009-pro/Raphael)
 > `Python` · `PyQt6` · `Voice AI` · `Agent Architecture` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Raphael)
 - Multimodal AI operating system with real-time voice interaction, screen analysis, system orchestration, and browser automation.
 - Includes a tool execution layer, ACP subagent planning, persistent SQLite memory, a PyQt6 HUD, and a documented test suite.
+
+#### 🔎 [ARGUS-Consumer — Evidence-Grounded Financial Screening](https://github.com/Krishna009-pro/argus-consumer)
+> `Python` · `FastAPI` · `React` · `LLM Research` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/argus-consumer)
+- Converts public financial reports into source-linked observations and requires human verification before findings enter analysis.
+- Uses deterministic Python screening, PDF evidence extraction, falsification and red-team panels, and optional LLM-assisted qualitative research.
+
+#### ☁️ [Cloud-Native MLOps Automation Platform](https://github.com/Krishna009-pro/auto-mlops-aws-k8s)
+> `Python` · `Scikit-Learn` · `AWS` · `Docker` · `Kubernetes` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/auto-mlops-aws-k8s)
+- Implements CI/CD/CT/CM workflows for a Random Forest training and FastAPI serving pipeline.
+- Uses GitHub Actions, Docker, AWS Lambda/S3/SNS/SSM, Kubernetes, quality gates, monitoring, and rolling deployments.
+
+#### 🌦️ [SkyGuard-AI — Sensor Anomaly Detection](https://github.com/Krishna009-pro/SkyGuard-AI)
+> `Python` · `Machine Learning` · `Deep Learning` · `AWS` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/SkyGuard-AI)
+- Weather-quality and sensor-fault detection prototype that combines meteorological rules, Isolation Forest, an autoencoder, spatial consensus, and self-healing data recovery.
+- Includes AWS data ingestion, root-cause diagnosis, uncertainty estimation, technical reports, and containerized evaluation tooling.
 
 <br>
 
