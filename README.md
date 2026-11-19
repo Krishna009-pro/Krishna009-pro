@@ -17,7 +17,7 @@
   <tr>
     <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
     <td valign="top">
-      <img src="./assets/animated-build-banner.svg" width="490" alt="Animated BUILD CONNECT SHIP banner" />
+      <img src="./assets/asta-training.gif" width="490" alt="Asta Relentless One-Arm Pushups Training" />
     </td>
   </tr>
 </table>
