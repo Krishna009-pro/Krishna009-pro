@@ -8,7 +8,7 @@
 
 <!-- Dynamic Animated Typing Bar (Cyber Cyan Theme) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Agentic+AI+%7C+PyTorch+%7C+High-Throughput+APIs;Autonomous+Multi-Agent+Architectures;Distributed+Systems+%26+ML+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Python+%7C+Java+%7C+TypeScript+%7C+React;Machine+Learning+%26+Computer+Vision" alt="Typing SVG" />
 </a>
 
 <br>
@@ -53,12 +53,12 @@
 
 > *"I enjoy building things — whether that's an ML model, an agentic AI system, a full-stack app, or a reliable data pipeline."*
 
-I'm an **AI & Data Science** undergraduate at **Indira College of Engineering and Management (ICEM), Pune**. My focus centers on architecting **autonomous agentic systems, high-performance web backends, and production-grade computer vision pipelines**.
+I'm an **AI & Data Science** undergraduate at **Indira College of Engineering and Management (ICEM), Pune**. I build web applications, machine-learning experiments, and computer-vision projects.
 
-- 🎓 **Education:** Pursuing **B.Tech in AI & Data Science** (2024 – 2028) — ICEM Pune | Diploma in Computer Engineering — GGSP Polytechnic
-- 🔭 **Currently Engineering:** Autonomous Multi-Agent workflows, edge computer vision defect detectors & scalable full-stack apps
-- 🌱 **Deepening Expertise:** Reinforcement Learning, MLOps orchestration pipelines, Distributed Agent Frameworks
-- ⚡ **Philosophy:** Writing clean, decoupled, and benchmarked code that solves mission-critical problems
+- 🎓 **Education:** Pursuing **B.Tech in AI & Data Science** at ICEM Pune
+- 🔭 **Building:** Full-stack applications, infrastructure monitoring, and local voice-assistant automation
+- 🌱 **Learning:** Applied machine learning, computer vision, backend APIs, and deployment workflows
+- ⚡ **Approach:** Start with a working implementation, document the system, and test it incrementally
 
 <br>
 
@@ -67,9 +67,9 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 
 | Area | What I build |
 | --- | --- |
-| **Agentic AI** | Multi-agent workflows with reliable routing, structured outputs, and persistent context |
-| **Applied ML & Vision** | Defect detection, predictive maintenance, and models connected to real-world telemetry |
-| **Scalable Applications** | FastAPI and MERN systems with clean APIs, asynchronous workloads, and practical UX |
+| **Machine Learning** | Classification, regression, and predictive-maintenance experiments |
+| **Computer Vision** | OpenCV-based vehicle counting and structural-defect image processing |
+| **Web Development** | React, FastAPI, Express, TypeScript, Firebase, and Java web backends |
 
 <br>
 
@@ -93,25 +93,25 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
   <tr>
     <td width="28%" valign="middle" align="left">
       <b>⚡ Languages &amp; Runtimes</b><br>
-      <sub>Python, C++, C, Java, TypeScript, JavaScript, PHP</sub>
+      <sub>Python, C++, C, Java, TypeScript, JavaScript</sub>
     </td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=py,cpp,c,java,ts,js,php" alt="Languages" />
+      <img src="https://skillicons.dev/icons?i=py,cpp,c,java,ts,js" alt="Languages" />
     </td>
   </tr>
   <tr>
     <td width="28%" valign="middle" align="left">
       <b>🧠 AI, ML &amp; Computer Vision</b><br>
-      <sub>PyTorch, Scikit-Learn, TensorFlow, OpenCV</sub>
+      <sub>Scikit-Learn, OpenCV, Python ML</sub>
     </td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=pytorch,scikitlearn,tensorflow" alt="AI / ML" />
+      <img src="https://skillicons.dev/icons?i=scikitlearn" alt="Machine learning" />
     </td>
   </tr>
   <tr>
     <td width="28%" valign="middle" align="left">
       <b>🌐 Backend &amp; Web Frameworks</b><br>
-      <sub>FastAPI, React.js, Node.js, Express, TailwindCSS, HTML5, CSS3</sub>
+      <sub>FastAPI, React.js, Node.js, Express, Tailwind CSS, HTML5, CSS3</sub>
     </td>
     <td align="left">
       <img src="https://skillicons.dev/icons?i=fastapi,react,nodejs,express,tailwind,html,css" alt="Web & Backend" />
@@ -120,10 +120,10 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
   <tr>
     <td width="28%" valign="middle" align="left">
       <b>🗄️ Databases &amp; Cloud Storage</b><br>
-      <sub>MongoDB, MySQL, Supabase, Firebase</sub>
+      <sub>MySQL, Firebase, SQLite</sub>
     </td>
     <td align="left">
-      <img src="https://skillicons.dev/icons?i=mongodb,mysql,supabase,firebase" alt="Databases" />
+      <img src="https://skillicons.dev/icons?i=mysql,firebase" alt="Databases" />
     </td>
   </tr>
   <tr>
@@ -158,29 +158,24 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 ### 🚀 Featured Projects
 
 #### 🌉 [ML-Driven Bridge Maintenance & Lifespan Prediction System](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
-> `Python` · `OpenCV` · `Machine Learning` · `IoT Telemetry` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
-- Synthesizes real-time IoT vibration and strain telemetry with machine learning regression models to predict structural fatigue and degradation indices.
-- Engineered automated **computer vision crack detection** using OpenCV morphological contouring and filtering to flag defects at scale.
+> `Python` · `Java` · `React` · `OpenCV` · `IoT` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
+- Multi-layer bridge-monitoring project with Arduino/NodeMCU sensor code, Java Tomcat services, Python prediction servers, and a React dashboard.
+- Contains OpenCV vehicle-counting and structural-crack-processing experiments; the repository also includes MySQL database scripts.
 
 #### 🎓 [Student Hub — Accommodation & Course Tracker](https://github.com/Krishna009-pro/students-accommodation-finder)
-> `MongoDB` · `Express.js` · `React.js` · `Node.js` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
-- Full-stack MERN ecosystem built to streamline student housing discovery, roommate verification, and academic milestone tracking.
-- Architected normalized MongoDB schemas with aggregation pipelines, JWT authentication, and a responsive modern dashboard.
+> `TypeScript` · `React` · `Express` · `Firebase` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/students-accommodation-finder)
+- React and TypeScript application for discovering student accommodation and comparing properties.
+- Includes an Express backend, Firebase configuration, property/review APIs, and AI-related controller routes.
 
 #### ☁️ [Aura Drive — Cloud File & Media Vault](https://github.com/Krishna009-pro/aura-drive)
 > `React` · `FastAPI` · `ImageKit.io` · `Cloud Storage` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/aura-drive)
-- Asynchronous high-throughput media storage vault supporting categorized file uploads, live streaming, and instant asset transformation.
-- Powered by a Python FastAPI asynchronous backend interfacing with ImageKit CDN and client-side React state handling.
+- FastAPI file-management application using SQLAlchemy, FastAPI Users, SQLite, and ImageKit.
+- Includes authentication, file uploads, ownership checks, and a vanilla JavaScript frontend.
 
 #### 🤖 [Desktop Jarvis — Voice-Driven AI Assistant](https://github.com/Krishna009-pro/Desktop-Jarvis)
 > `Python` · `NLP` · `System Automation` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
-- Hands-free desktop voice assistant executing operating system routines, background automation, and real-time natural language query routing.
-- Built with non-blocking audio event loops and intent parsing for low-latency command dispatch.
-
-#### 🌟 [StorySpark AI — Interactive Storytelling Platform](https://github.com/Krishna009-pro/story-spark-ai)
-> `AI/LLM` · `Full-Stack` · `Prompt Engineering` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/story-spark-ai)
-- Interactive generative AI storytelling engine that dynamically builds branching storylines based on user decisions while preserving narrative memory.
-- Enforces strict JSON prompt contracts to ensure consistent world rules and character persona retention across turns.
+- Python voice assistant with speech-to-text, text-to-speech, automation commands, and local Ollama/Vosk experiments.
+- Repository includes API integration tests for several language-model providers and OS-oriented command handlers.
 
 <br>
 
@@ -225,8 +220,8 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 <div align="center">
 
 <p align="center">
-  <b>Let's build resilient, high-impact systems together.</b><br>
-  Whether you have an opportunity in agentic AI architectures, scalable full-stack development, technical collaborations, or open-source engineering — my inbox is always open!
+  <b>Open to software engineering and AI/ML opportunities.</b><br>
+  Interested in full-stack development, applied machine learning, computer vision, and student or open-source collaborations.
 </p>
 
 <p align="center">
