@@ -8,7 +8,7 @@
 
 <!-- Dynamic Animated Typing Bar (Cyber Cyan Theme) -->
 <a href="https://github.com/Krishna009-pro">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;Full+Stack+AIML+%26+Data+Science;Python+%7C+Java+%7C+TypeScript+%7C+React;Machine+Learning+%26+Computer+Vision" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Krushna+Patil+%F0%9F%91%8B;AI+%26+Data+Science+Engineer+in+Progress;ML+%7C+Deep+Learning+%7C+MLOps;Python+%7C+Java+%7C+TypeScript+%7C+React" alt="Typing SVG" />
 </a>
 
 <br>
@@ -53,11 +53,11 @@
 
 > *"I enjoy building things — whether that's an ML model, an agentic AI system, a full-stack app, or a reliable data pipeline."*
 
-I'm an **AI & Data Science** undergraduate at **Indira College of Engineering and Management (ICEM), Pune**. I build web applications, machine-learning experiments, and computer-vision projects.
+I'm an **AI & Data Science** undergraduate at **Indira College of Engineering and Management (ICEM), Pune**. I am currently focusing on **machine learning, deep learning, AI systems, and MLOps**, while building full-stack applications and computer-vision projects.
 
 - 🎓 **Education:** Pursuing **B.Tech in AI & Data Science** at ICEM Pune
-- 🔭 **Building:** Full-stack applications, infrastructure monitoring, and local voice-assistant automation
-- 🌱 **Learning:** Applied machine learning, computer vision, backend APIs, and deployment workflows
+- 🔭 **Building:** ML experiments, infrastructure monitoring, full-stack applications, and local voice-assistant automation
+- 🌱 **Focusing on:** Machine learning, deep learning, MLOps, model deployment, computer vision, and AI workflows
 - ⚡ **Approach:** Start with a working implementation, document the system, and test it incrementally
 
 <br>
@@ -68,6 +68,8 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 | Area | What I build |
 | --- | --- |
 | **Machine Learning** | Classification, regression, and predictive-maintenance experiments |
+| **Deep Learning & AI** | Learning neural-network architectures, training workflows, and applied AI systems |
+| **MLOps** | Exploring experiment tracking, model packaging, deployment, monitoring, and reproducible pipelines |
 | **Computer Vision** | OpenCV-based vehicle counting and structural-defect image processing |
 | **Web Development** | React, FastAPI, Express, TypeScript, Firebase, and Java web backends |
 
