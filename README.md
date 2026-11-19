@@ -174,10 +174,10 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 - FastAPI file-management application using SQLAlchemy, FastAPI Users, SQLite, and ImageKit.
 - Includes authentication, file uploads, ownership checks, and a vanilla JavaScript frontend.
 
-#### 🤖 [Desktop Jarvis — Voice-Driven AI Assistant](https://github.com/Krishna009-pro/Desktop-Jarvis)
-> `Python` · `NLP` · `System Automation` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Desktop-Jarvis)
-- Python voice assistant with speech-to-text, text-to-speech, automation commands, and local Ollama/Vosk experiments.
-- Repository includes API integration tests for several language-model providers and OS-oriented command handlers.
+#### 🤖 [RAPHAEL-OS — Active Intelligence Operating System](https://github.com/Krishna009-pro/Raphael)
+> `Python` · `PyQt6` · `Voice AI` · `Agent Architecture` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/Raphael)
+- Multimodal AI operating system with real-time voice interaction, screen analysis, system orchestration, and browser automation.
+- Includes a tool execution layer, ACP subagent planning, persistent SQLite memory, a PyQt6 HUD, and a documented test suite.
 
 <br>
 
