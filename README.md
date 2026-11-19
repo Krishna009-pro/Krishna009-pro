@@ -179,6 +179,16 @@ I'm an **AI & Data Science** undergraduate at **Indira College of Engineering an
 - Weather-quality and sensor-fault detection prototype that combines meteorological rules, Isolation Forest, an autoencoder, spatial consensus, and self-healing data recovery.
 - Includes AWS data ingestion, root-cause diagnosis, uncertainty estimation, technical reports, and containerized evaluation tooling.
 
+#### 🌉 [ML-Driven Bridge Maintenance & Lifespan Prediction](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
+> `Python` · `Java` · `React` · `OpenCV` · `IoT` · [![Repo](https://img.shields.io/badge/View_Code-GitHub-0284C7?style=flat-square&logo=github)](https://github.com/Krishna009-pro/ML-Driven-Bridge-Maintenance)
+- Multi-layer bridge-monitoring project with Arduino/NodeMCU sensor code, Java Tomcat services, Python prediction servers, and a React dashboard.
+- Includes OpenCV vehicle-counting experiments, structural-crack processing code, MySQL scripts, and simulated telemetry workflows.
+
+### 🤝 Open-Source Contributions
+
+#### [Tenali](https://github.com/vicharanashala/tenali)
+Contributed merged feature work to the **Water Jug** and **Equation Crafting** interactive labs through [PR #131](https://github.com/vicharanashala/tenali/pull/131).
+
 <br>
 
 ---
