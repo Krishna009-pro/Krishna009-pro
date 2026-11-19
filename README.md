@@ -15,9 +15,9 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
-    <td valign="top">
-      <img src="./assets/asta-training.gif" width="490" alt="Asta Relentless One-Arm Pushups Training" />
+    <td valign="top" align="center"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+    <td valign="middle" align="center">
+      <img src="./assets/asta-demon.gif" width="490" alt="Black Asta — Anti-Magic Dual Awakening" />
     </td>
   </tr>
 </table>
